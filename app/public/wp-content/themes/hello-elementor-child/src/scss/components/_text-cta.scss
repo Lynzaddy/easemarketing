@@ -1,0 +1,305 @@
+/* =============== TEXT & CTA START =============== */
+
+.elementor .elementor-element.elementor-section.cta-section {
+  position: relative;
+}
+.elementor .elementor-element.elementor-section.cta-section h4 a {
+  color: #414245;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.elementor .elementor-element.elementor-section.cta-section h4 a:hover {
+  color: #08A6A5;
+}
+
+.elementor .elementor-element.elementor-section.cta-section{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+      margin: 0 0 0 0;
+      --e-column-margin-right: 0;
+      --e-column-margin-left: 0; 
+      padding: 120px 0 120px 0; 
+      overflow-x: hidden;
+}
+
+.elementor .elementor-element.elementor-section.cta-section .elementor-column > .elementor-element-populated{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+      margin: 0 0 0 0;
+      --e-column-margin-right: 0;
+      --e-column-margin-left: 0; 
+      padding: 0 0 0 0; 
+}
+
+
+.elementor .elementor-element.elementor-section.cta-section:before {
+  content: '';
+  height: 236px;
+  width: 376px;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  left: -10px;
+  top: 0;
+  background-image: url('/wp-content/uploads/2022/05/Group-409.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.elementor .elementor-element.elementor-section.cta-section.cta-section-without-bg-image:after, 
+.elementor .elementor-element.elementor-section.cta-section.cta-section-without-bg-image:before 
+{
+  display: none;
+}
+.elementor .elementor-element.elementor-section.cta-section:after {
+  content: '';
+  height: 190px;
+  width: 486px;
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+  right: -5px;
+  bottom: -5px;
+  background-image: url('/wp-content/uploads/2022/05/Group-407.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.elementor .elementor-element.elementor-section.cta-section.pricing-cta-section:before {
+  background-image: url('/wp-content/uploads/2022/06/pricing-cta-img-1.png');
+}
+
+.elementor .elementor-element.elementor-section.cta-section.pricing-cta-section:after {
+  background-image: url('/wp-content/uploads/2022/06/pricing-cta-img-2.png');
+  width: 379px;
+  right: 0;
+  background-position: right;
+}
+
+@media (max-width: 1350px) {
+.elementor .elementor-element.elementor-section.cta-section:after {
+    right: -100px;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+.elementor .elementor-element.elementor-section.cta-section:after {
+    right: -200px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .elementor .elementor-element.elementor-section.cta-section .elementor-column>.elementor-element-populated {
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media (max-width: 767px) {
+.elementor .elementor-element.elementor-section.cta-section:before {
+    content: '';
+    height: 130px;
+    width: 210px;
+
+  }
+
+.elementor .elementor-element.elementor-section.cta-section:after {
+    content: '';
+    height: 110px;
+    width: 280px;
+    right: 0px;
+    bottom: 0px;
+  }
+
+
+}
+
+
+
+@media (max-width: 767px) {
+
+.elementor .elementor-element.elementor-section.cta-section .elementor-align-center.elementor-widget.elementor-widget-button {
+    z-index: 3;
+  }
+}
+
+
+/************ CTA SECTION 1 ************/
+
+.elementor .elementor-element.elementor-section .cta-section-1>.elementor-element-populated {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 0px 0px 0px 0px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 0px;
+  padding: 120px 0px 130px 0px;
+}
+
+
+.elementor .elementor-element.elementor-section .cta-section-1 {
+  position: relative;
+}
+
+.elementor .elementor-element.elementor-section .cta-section-1:before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+  left: 20px;
+  background-image: url('/wp-content/uploads/2022/06/top-new.svg');
+  background-repeat: no-repeat;
+  background-size: 612px;
+  background-position: top right
+}
+
+.elementor .elementor-element.elementor-section .cta-section-1:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  top: -45px;
+  left: -5px;
+  background-image: url('/wp-content/uploads/2022/06/top.svg');
+  background-repeat: no-repeat;
+  background-size: 331px;
+  background-position: bottom left;
+}
+
+.elementor .elementor-element.elementor-section .cta-section-1.pricing-cta-section:before {
+  background-image: url('/wp-content/uploads/2022/06/pricing-cta-img-1.png');
+}
+
+.elementor .elementor-element.elementor-section .cta-section-1.pricing-cta-section:after {
+  background-image: url('/wp-content/uploads/2022/06/pricing-cta-img-2.png');
+  width: 379px;
+  right: 0;
+}
+
+@media (max-width: 1350px) {
+  .elementor .elementor-element.elementor-section .cta-section-1:after {
+    right: -100px;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .elementor .elementor-element.elementor-section .cta-section-1:after {
+    right: -200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor .elementor-element.elementor-section .cta-section-1>.elementor-element-populated {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .elementor .elementor-element.elementor-section .cta-section-1:before {
+    left: unset;
+    width: 80%;
+    background-size: contain;
+    top: 0px;
+    right: 0;
+  }
+
+  .elementor .elementor-element.elementor-section .cta-section-1:after {
+    content: unset;
+  }
+
+  .elementor .elementor-element.elementor-section .cta-section > .elementor-element-populated{
+   
+      padding: 80px 20px; 
+  }
+
+}
+/************ CTA SECTION 1 ************/
+
+/************ CTA SECTION 1 - v2 ************/
+
+.elementor .elementor-element.elementor-section.cta-section-1.cta-section-1-v2 {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 0px 0px 0px 0px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 0px;
+  padding: 120px 0px 130px 0px;
+}
+
+
+.elementor .elementor-element.elementor-section.cta-section-1.cta-section-1-v2 {
+  position: relative;
+}
+
+.elementor .elementor-element.elementor-section.cta-section-1.cta-section-1-v2:before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+  left: 20px;
+  background-image: url('/wp-content/uploads/2022/06/top-new.svg');
+  background-repeat: no-repeat;
+  background-size: 612px;
+  background-position: top right;
+  top: 0;
+}
+
+.elementor .elementor-element.elementor-section.cta-section-1.cta-section-1-v2:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  top: -35px;
+  left: -5px;
+  background-image: url('/wp-content/uploads/2022/06/top.svg');
+  background-repeat: no-repeat;
+  background-size: 331px;
+  background-position: bottom left;
+}
+
+
+@media (max-width: 1350px) {
+  .elementor .elementor-element.elementor-section.cta-section-1.cta-section-1-v2:after {
+    right: -100px;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .elementor .elementor-element.elementor-section.cta-section-1.cta-section-1-v2:after {
+    right: -200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor .elementor-element.elementor-section.cta-section-1.cta-section-1-v2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .elementor .elementor-element.elementor-section.cta-section-1.cta-section-1-v2:before {
+    left: unset;
+    width: 80%;
+    background-size: contain;
+    top: 0px;
+    right: 0;
+  }
+
+  .elementor .elementor-element.elementor-section.cta-section-1.cta-section-1-v2:after {
+    content: unset;
+  }
+
+
+}
+/************ CTA SECTION 1 - v2 ************/
+
+
+
+/* =============== TEXT & CTA END =============== */
+
+

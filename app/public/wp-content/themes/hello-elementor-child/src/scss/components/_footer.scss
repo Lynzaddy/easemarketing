@@ -1,0 +1,537 @@
+/*================ FOOTER START ==================*/
+
+/****** Upper Footer Start *******/
+.elementor .elementor-element.upper-footer.footer-section-wrap {
+  padding: 160px 0px 80px 0px;
+}
+
+.elementor .elementor-element.upper-footer.footer-section-wrap .elementor-element .attachment-full {
+  max-width: 80%;
+  height: auto;
+}
+
+
+.elementor .elementor-element.upper-footer.footer-section-wrap .elementor-heading-title {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+
+.elementor .elementor-element.upper-footer.footer-section-wrap .elementor-icon-list-item > a {
+  margin-bottom: 16px;
+  line-height: 20px;
+}
+
+.elementor .elementor-element.upper-footer.footer-section-wrap .elementor-widget-heading {
+  margin-bottom: 16px;
+}
+
+.elementor .elementor-element.upper-footer.footer-section-wrap .elementor-icon-list-item {
+  font-size: 14px;
+}
+
+.elementor .elementor-element.footer-location-section {
+  padding-bottom: 80px;
+}
+
+.elementor .elementor-element.footer-location-section .elementor-icon-list-items .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor .elementor-element.footer-location-section .elementor-icon-list-items .elementor-icon-list-item> a {
+  font-size: 14px;
+}
+
+.elementor .elementor-element.footer-location-section .elementor-element .elementor-widget-container p,
+.elementor .elementor-element.footer-location-section .elementor-element .elementor-widget-container strong,
+.elementor .elementor-element.footer-location-section .elementor-element .elementor-widget-container a,
+.elementor .elementor-element.footer-location-section .elementor-element .elementor-widget-container {
+  font-size: 14px;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.elementor .elementor-element.footer-location-section .elementor-element .elementor-widget-container p{
+  font-weight: normal;
+}
+
+.elementor .elementor-element.footer-location-section .elementor-element .elementor-widget-container p,
+.elementor .elementor-element.footer-location-section .elementor-element .elementor-widget-container p a{
+  font-weight: normal;
+}
+
+.elementor .elementor-element.footer-location-section .elementor-element .sales-support .elementor-widget-container,
+.elementor .elementor-element.footer-location-section .elementor-element .sales-support .elementor-widget-container a {
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1025px) {
+
+  .elementor .elementor-section.footer-bottom-links>.elementor-container {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  section.footer-location-section .elementor-column-gap-default {
+    flex-wrap: wrap;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+  section.footer-section-wrap .elementor-column-gap-default {
+    flex-wrap: wrap;
+
+  }
+
+}
+
+@media only screen and (max-width: 1024px){ 
+  
+  .mobile-responsive-footer {
+    display: block;
+  }
+
+  .elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1024px;
+  }
+
+  .elementor .elementor-element.social-links-bar > .elementor-container > .elementor-element.elementor-column {
+    width: 50%;
+  }
+
+  .elementor .elementor-element.social-links-bar .responsive-footer-site-logo img {
+    max-width: 125px;
+    margin-top: 8px;
+  }
+
+  .elementor .elementor-element.social-links-bar .elementor-widget-elementskit-social-media .ekit_social_media {
+    text-align: right;
+  }
+
+  .elementor .elementor-element.social-links-bar .responsive-footer-logo-social-media .elementor-element.elementor-widget-elementskit-social-media .ekit_social_media>li {
+    display: inline-block;
+    margin: 5px 3px 5px 3px;
+  }
+
+  .elementor .elementor-element.social-links-bar .elementor-element.elementor-widget-elementskit-social-media .ekit_social_media>li>a {
+    padding: 5px 3px 5px 3px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .elementor .elementor-element.social-links-bar .elementor-element.elementor-widget-elementskit-social-media .ekit_social_media>li>a i {
+    font-size: 13px;
+  }
+
+
+  .elementor .elementor-element.subscribe-bar .responsive-subscribe-footer .elementor-widget-wrap.elementor-element-populated {
+    padding: 40px 15px 40px 15px !important;
+  }
+
+  .elementor .elementor-element.subscribe-bar .responsive-subscribe-footer .elementor-widget-heading {
+    margin-bottom: 5px;
+  }
+
+  .elementor .elementor-element.subscribe-bar .responsive-subscribe-footer .elementor-widget-text-editor {
+    margin-bottom: 5px;
+  }
+
+  .elementor .elementor-element.subscribe-bar .responsive-subscribe-footer .elementor-widget-text-editor p{
+    font-size: 11px;
+    line-height: 21px;
+  }
+
+  .elementor .elementor-element.subscribe-bar .responsive-subscribe-footer .elementor-element.elementor-widget-heading .elementor-heading-title {
+    margin-bottom: 0;
+  }
+
+  .elementor .elementor-element.subscribe-bar .responsive-subscribe-footer form {
+    padding: 10px 0;
+  }
+
+  .elementor .elementor-element.subscribe-bar .elementor-element.elementor-widget-heading .elementor-heading-title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+
+  .elementor .elementor-element.subscribe-bar .responsive-subscribe-footer p {
+    margin-bottom: 0;
+  }
+
+  .elementor .elementor-element.subscribe-bar .elementor-element.footer-newsletter-form .ekit_form_control {
+    font-size: 16px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .elementor .elementor-element.subscribe-bar .elementor-element.footer-newsletter-form .ekit-mail-submit {
+    border-radius: 36px 36px 36px 36px;
+    padding: 20px 20px 20px 20px;
+    width: 69px;
+    margin: -5px 0px 0px -31px;
+  }
+
+  .elementor .elementor-element.footer-navigation #footer-responsive-navigation-menu .elementor-element-populated {
+    padding: 0 !important;
+  }
+
+  .elementor .elementor-element.footer-navigation #footer-responsive-navigation-menu .elementor-nav-menu--dropdown.elementor-nav-menu__container {
+    margin-top: 2px;
+  }
+
+  .elementor .elementor-element.footer-navigation #footer-responsive-navigation-menu .elementor-nav-menu>li {
+    margin-bottom: 2px;
+  }
+
+  .elementor .elementor-element.footer-navigation #footer-responsive-navigation-menu .elementor-nav-menu>li>a {
+    color: #fff;
+    background-color: #08A6A5;
+    padding: 20px 20px;
+    font-size: 14px;
+    font-family: "Montserrat", Sans-serif;
+    text-decoration: none;
+  }
+
+  .elementor .elementor-element.footer-navigation #footer-responsive-navigation-menu .elementor-nav-menu li .sub-menu.elementor-nav-menu--dropdown li a:hover{
+    background-color: transparent;
+  }
+
+  .elementor .elementor-element.footer-navigation #footer-responsive-navigation-menu .elementor-nav-menu .sub-arrow {
+    text-align: right;
+    display: block;
+    width: 100%;
+  }
+
+  .elementor .elementor-element.footer-navigation #footer-responsive-navigation-menu .elementor-nav-menu .sub-arrow .fa-caret-down:before {
+    content: "";
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(-45deg);
+    transition: all 0.5s;
+  }
+
+  .elementor .elementor-element.footer-navigation #footer-responsive-navigation-menu .elementor-nav-menu>li a.highlighted .sub-arrow .fas.fa-caret-down:before {
+    transform: rotate(45deg);
+  }
+
+  .elementor .elementor-element.footer-navigation #footer-responsive-navigation-menu .elementor-nav-menu li .sub-menu.elementor-nav-menu--dropdown li a {
+    padding: 11px 20px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+    border-left: none;
+    font-family: "Montserrat Font", Sans-serif;
+    font-weight: 800;
+  }
+
+  .elementor .elementor-element.footer-cat-links .responsive-footer-extra-nav.elementor-element {
+    width: 100%;
+  }
+
+  .elementor .elementor-element.footer-cat-links .responsive-footer-extra-nav .elementor-element-populated {
+    padding: 20px 20px 20px 20px !important;
+  }
+
+  .elementor .elementor-element.footer-cat-links .elementor-element.elementor-widget-heading .elementor-heading-title {
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 3px;
+  }
+
+  .elementor .elementor-element.footer-cat-links .elementor-element.elementor-widget-heading .elementor-heading-title a:hover{
+    color: #08A6A5;
+  }
+
+  .elementor .elementor-element.sales-bar .elementor-element.elementor-element-5dca271>.elementor-element-populated {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .elementor .elementor-element.sales-bar .elementor-element.elementor-widget-text-editor p{
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .elementor .elementor-element.support-bar.mobile-responsive-footer .respinsive-sale-support .elementor-element-populated {
+    padding: 20px 20px 0px 20px !important;
+  }
+
+  .elementor .elementor-element.support-bar .elementor-element.elementor-widget-text-editor p{
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+
+  .elementor .elementor-element.footer-privacy-links .elementor-element.responsive-footer-last-navigation>.elementor-element-populated {
+    padding: 40px 0px 40px 0px;
+  }
+
+  .elementor .elementor-element.footer-privacy-links .elementor-element.elementor-widget-heading .elementor-heading-title {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal;
+  }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  .elementor .elementor-element.subscribe-bar .elementor-element.footer-newsletter-form .ekit-mail-submit {
+    margin: 0 0px 0px -31px;
+  }
+
+}
+/****** Upper Footer End *******/
+
+/****** Lower Footer Start *******/
+.elementor .elementor-element.lower-footer-1.global-footer.newsletter-footer {
+  padding-top: 100px;
+}
+
+.elementor .elementor-element.lower-footer-2.global-footer.footer-last-navigation {
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+
+.elementor .elementor-element.lower-footer-1.global-footer .ekit_social_media>li>a{
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  padding: 17px;
+  width: 66px;
+  height: 66px;
+  line-height: 22px;
+}
+
+.elementor .elementor-element.lower-footer-1.global-footer .ekit_social_media>li>a i{
+  font-size: 32px;
+}
+
+.elementor .elementor-element.lower-footer-1.global-footer.elementor-element .elementor-column>.elementor-widget-wrap .elementor-element.elementor-widget.elementor-widget-heading {
+  margin-bottom: 0;
+}
+
+.elementor .elementor-element.lower-footer-1.global-footer .elementor-heading-title{
+  font-family: "Montserrat", Sans-serif;
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.elementor .elementor-element.lower-footer-1.global-footer .footer-newsletter p{
+  font-size: 14px;
+}
+
+.elementor .elementor-element.lower-footer-2.global-footer .elementor-icon-list-item {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.elementor .elementor-element.lower-footer-1.global-footer .footer-newsletter-form form{
+  padding: 34px;
+  border-radius: 6px;
+}
+
+.elementor .elementor-element.lower-footer-1.global-footer .footer-newsletter-form .elementskit_inline_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.elementor .elementor-element.lower-footer-1.global-footer .footer-newsletter-form .ekit-wid-con .ekit-mailChimpForm .ekit_form_control {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 34px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.elementor .elementor-element.lower-footer-1.global-footer .footer-newsletter-form .ekit-wid-con .ekit_form_control {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  border-radius: 41px 0px 0px 41px;
+  padding: 20px 10px 20px 20px;
+}
+
+
+.elementor .elementor-element.lower-footer-1.global-footer .footer-newsletter-form input::placeholder {
+  font-size: 14px;
+  color: #c8cacc;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: normal;
+}
+
+.elementor .elementor-element.lower-footer-1.global-footer .footer-newsletter-form  .ekit_submit_input_holder {
+  position: absolute;
+  right: 0;
+}
+
+.elementor .elementor-element.lower-footer-1.global-footer .footer-newsletter-form .ekit-mail-submit {
+  margin: 0px;
+}
+
+.elementor .elementor-element.lower-footer-1.global-footer .footer-newsletter-form .ekit-mail-submit {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 41px 41px 41px 41px;
+  padding: 18px 10px 20px 10px;
+  width: 180px;
+  margin: 0px 0px 0px -59px;
+  color: #fff;
+  background-color: #08A6A5;
+}
+
+body .mobile-responsive-footer ul {
+  padding: 10px 0;
+}
+
+/********* Newsletter Form Marketo ********/
+.footer-subscribe-form-marketo{}
+
+.footer-subscribe-form-marketo form.mktoForm {
+  background: transparent;
+  width: calc(100% + 35px) !important;
+  display: flex;
+}
+
+.footer-subscribe-form-marketo .mktoForm .mktoFormRow {
+  margin-bottom: 0;
+}
+
+.footer-subscribe-form-marketo form.mktoForm .mktoButtonRow {
+  margin-top: 0;
+}
+
+.footer-subscribe-form-marketo form.mktoForm .mktoButtonRow .mktoFormCol{
+  margin-bottom: 0;
+}
+
+.footer-subscribe-form-marketo .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+  font-family: "Montserrat", Sans-serif !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  border-radius: 41px 41px 41px 41px !important;
+  padding: 18px 10px 20px 10px !important;
+  width: 180px !important;
+  margin: 0px 0px 0px -59px !important;
+  color: #fff !important;
+  background-color: #08a6a5 !important;
+  line-height: 26px;
+  background-image: inherit !important;
+  border: 0 !important;
+}
+
+.footer-subscribe-form-marketo .mktoForm .mktoFormCol {
+  margin-bottom: 0 !important;
+  width: 100% !important;
+}
+
+.footer-subscribe-form-marketo .mktoForm .mktoFieldWrap input.mktoEmailField::placeholder {
+  font-size: 14px !important;
+  color: #333333!important;
+  font-family: "Montserrat", Sans-serif!important;
+  font-weight: normal!important;
+}
+
+.footer-subscribe-form-marketo .mktoForm .mktoFieldWrap .mktoEmailField {
+  display: block;
+  height: auto;
+  min-height: 34px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  width: 100% !important;
+  font-family: "Montserrat", Sans-serif !important;
+  font-style: italic;
+  border-radius: 41px 0px 0px 41px;
+  padding: 20px 10px 20px 20px !important;
+  color: #333333 !important;
+}
+.footer-subscribe-form-marketo .mktoForm .mktoFormRow:nth-child(2) {
+  width: 100% !important;
+}
+
+
+.footer-subscribe-form-marketo .mktoForm button.mktoButton:disabled{
+  opacity: 1;
+  background-color: #83c5c4 !important;
+}
+#thankyou-msg {
+  display: none;
+  color: #fff;
+  margin: 0;
+  padding: 0 50px;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: -25px;
+}
+/********* Newsletter Form Marketo ********/
+
+
+
+/****** Lower Footer End *******/
+
+@media only screen and (max-width: 767px) {
+  .footer-newsletter-form .elementskit_form_wraper.elementskit_inline_form {
+    flex-direction: column;
+  }
+
+  .footer-newsletter-form .elementskit_form_wraper.elementskit_inline_form .ekit_submit_input_holder.elementskit_input_wraper {
+    align-self: center;
+  }
+}
+
+.footer-last-navigation .elementor-icon-list-item .elementor-icon-list-text span:hover {
+  color: #ffffff;
+}
+
+.footer-last-navigation .elementor-element-8aeb7ca a:hover {
+  opacity: 1;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+  .footer-last-navigation .elementor-element.elementor-widget.elementor-widget-elementskit-page-list {
+    background-color: transparent;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .footer-last-navigation .ekit-wid-con .elementor-inline-items .elementor-icon-list-item {
+    display: flex;
+  }
+}
+
+
+
+
+/*================ FOOTER END ==================*/

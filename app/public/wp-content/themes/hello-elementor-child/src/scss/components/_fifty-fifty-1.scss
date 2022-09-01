@@ -1,0 +1,82 @@
+/* =============== 50/50 [1] START =============== */
+.elementor .elementor-element.elementor-section.two-col-full-width .elementor-column.elementor-col-50 {
+  width: 100%;
+}
+
+.elementor .elementor-element.elementor-section.two-col-full-width .left_hand_box_ .elementor-widget-wrap.elementor-element-populated {
+  max-width: 640px;
+  margin-left: auto;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 100px 80px 100px 0;
+}
+
+.elementor .elementor-element.elementor-section.two-col-full-width .right_hand_box_ .elementor-widget-wrap.elementor-element-populated {
+  max-width: 640px;
+  margin-right: auto;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 100px 0px 100px 80px;
+}
+
+.elementor .elementor-element.elementor-section.two-col-full-width .elementor-widget-heading>.elementor-widget-container {
+  padding: 0;
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1200px) {
+
+  .elementor .elementor-element.elementor-section.two-col-full-width .left_hand_box_ .elementor-widget-wrap.elementor-element-populated {
+    max-width: 600px;
+    padding-left: 20px;
+  }
+
+  .elementor .elementor-element.elementor-section.two-col-full-width .right_hand_box_ .elementor-widget-wrap.elementor-element-populated{
+    padding-right: 20px;
+    max-width: 600px;
+  }
+
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 1025px) {
+
+.elementor .elementor-element.elementor-section.two-col-full-width .left_hand_box_ .elementor-widget-wrap.elementor-element-populated {
+    max-width: 512px;
+    padding-left: 20px;
+  }
+
+  .elementor .elementor-element.elementor-section.two-col-full-width .right_hand_box_ .elementor-widget-wrap.elementor-element-populated {
+    padding-right: 20px;
+    max-width: 512px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .elementor .elementor-element.elementor-section.two-col-full-width .elementor-column.elementor-col-50 {
+    width: 50%;
+  }
+
+  .elementor .elementor-element.elementor-section.two-col-full-width .elementor-container {
+    flex-wrap: wrap;
+  }
+
+}
+ 
+
+@media (max-width: 992px) {
+
+  .elementor .elementor-element.elementor-section.two-col-full-width .left_hand_box_ .elementor-widget-wrap.elementor-element-populated, .elementor .elementor-element.elementor-section.two-col-full-width .right_hand_box_ .elementor-widget-wrap.elementor-element-populated{
+    margin: 0 auto;
+    padding: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .elementor .elementor-element.elementor-section.two-col-full-width .left_hand_box_ .elementor-widget-wrap.elementor-element-populated, .elementor .elementor-element.elementor-section.two-col-full-width .right_hand_box_ .elementor-widget-wrap.elementor-element-populated{
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+}
+/* =============== 50/50 [1] END =============== */
+
+

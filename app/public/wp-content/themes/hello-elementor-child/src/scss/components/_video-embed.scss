@@ -1,0 +1,72 @@
+/* =============== VIDEO EMBED START =============== */
+
+
+.elementor .elementor-element.elementor-section.video-full-width .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 0;
+}
+
+.elementor .elementor-element.elementor-section.video-full-width .elementor-widget-video .elementor-widget-container  { 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 870px;
+}
+.elementor .elementor-element.elementor-section.video-full-width .elementor-element.video-popup-section .eicon-play:before {
+    content: "";
+    background-image: url(/wp-content/uploads/2022/06/play-btn.png);
+    width: 136px;
+    height: 136px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor .elementor-element.elementor-section.video-full-width .elementor-element.video-popup-section .elementor-custom-embed-image-overlay:hover .eicon-play:before {
+
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.elementor .elementor-element.elementor-section.video-full-width .elementor-element.video-popup-section .elementor-open-inline {
+    pointer-events: none;
+}
+
+@media (min-width: 1141px){
+    .elementor-video-container {
+        width: 60% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    
+    .elementor .elementor-element.elementor-section.video-full-width .elementor-element.video-popup-section .eicon-play:before {
+        width: 100px;
+        height: 100px;
+    }
+
+    .elementor .elementor-element.elementor-section.video-full-width .elementor-column-gap-default>.elementor-column>.elementor-element-populated{
+        padding: 0 20px;
+    }
+
+    .elementor .elementor-element.elementor-section.slider-with-icon-text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .elementor .elementor-element.elementor-section.video-full-width .elementor-element.video-popup-section .eicon-play:before {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .elementor .elementor-element.elementor-section.video-full-width .elementor-element.video-popup-section .eicon-play:before {
+        width: 50px;
+        height: 50px;
+    }
+}
+/* =============== VIDEO EMBED END =============== */

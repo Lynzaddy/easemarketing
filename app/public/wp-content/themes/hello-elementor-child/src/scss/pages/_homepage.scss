@@ -1,0 +1,55 @@
+//ELEMENTOR OVERIDES
+
+// START Value prop 3 column
+
+// .elementor-element-7e3fe19 {
+//   .elementor-heading-title {
+//     text-decoration-thickness: 3px !important;
+//     text-underline-offset: 3px !important;
+//   }
+
+//   .elementor-element-72b29c6,
+//   .elementor-element-75fbed3,
+//   .elementor-element-f67438f {
+//     flex: 1 !important;
+//   }
+
+//   .elementor-widget-wrap {
+//     flex-direction: column !important;
+//   }
+
+//   @media (max-width: 1255px) {
+//     .elementor-container {
+//       display: flex !important;
+//       flex-direction: column !important;
+//     }
+
+//     .elementor-column {
+//       width: 100% !important;
+//     }
+//   }
+// }
+
+// selector {
+//   .elementor-heading-title {
+//     text-decoration-thickness: 3px !important;
+//     text-underline-offset: 3px !important;
+//   }
+
+//   p {
+//     flex: 1 !important;
+//   }
+// }
+
+// END Value prop 3 column
+
+// @media (max-width: 1255px) {
+//   .elementor-element-7e3fe19 .elementor-container {
+//     display: flex;
+//     flex-direction: column;
+//   }
+
+//   .elementor-element-7e3fe19 .elementor-column {
+//     width: 100%;
+//   }
+// }

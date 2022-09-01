@@ -1,0 +1,70 @@
+/* =============== IMAGE CONTAINER START =============== */
+
+.elementor .elementor-element.elementor-section.post-thumbnails h3 a {
+  position: relative;
+}
+
+.elementor .elementor-element.elementor-section.post-thumbnails h3 a:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  display: block;
+  bottom: 6px;
+  border-width: 0 0 2px;
+  border-style: solid;
+}
+
+.elementor .elementor-element.elementor-section.post-thumbnails > .elementor-container{
+  max-width: 1280px;
+}
+
+.elementor .elementor-element.elementor-section.post-thumbnails .image-container>.elementor-element-populated {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .38);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 80px 48px 80px 48px;
+}
+
+.elementor .elementor-element.elementor-section.post-thumbnails .elementor-column.card {
+  margin-bottom: 0;
+}
+
+.elementor .elementor-element.elementor-section.post-thumbnails h3:hover {
+  color: #08A6A5 !important;
+}
+
+.elementor .elementor-element.elementor-section.post-thumbnails .card {
+  margin-bottom: 0;
+}
+
+.elementor .elementor-element.elementor-section.post-thumbnails .elementor-widget-heading .elementor-heading-title{
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.elementor .elementor-element.elementor-section.post-thumbnails .elementor-widget-heading > .elementor-widget-container{
+  margin: 32px 0px 32px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.elementor .elementor-element.elementor-section.post-thumbnails .elementor-element.image-container-tags > .elementor-widget-container{
+  margin: 40px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.elementor .elementor-element.elementor-section.post-thumbnails .elementor-element.image-container-tags .elementor-icon-list-item{
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.elementor .elementor-element.elementor-section.post-thumbnails .elementor-element.image-container-tags .elementor-icon-list-item a{
+  padding: 5px 20px !important;
+  line-height: 24px;
+  margin: 0px 0px 10px 0px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+
+/* =============== IMAGE CONTAINER END =============== */

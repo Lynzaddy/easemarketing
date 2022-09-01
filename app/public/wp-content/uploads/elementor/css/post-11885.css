@@ -1,0 +1,58 @@
+.elementor-11885 .elementor-element.elementor-element-cc6693d:not(.elementor-motion-effects-element-type-background), .elementor-11885 .elementor-element.elementor-element-cc6693d > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FCFCF7;}.elementor-11885 .elementor-element.elementor-element-cc6693d{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:200px 0px 200px 0px;}.elementor-11885 .elementor-element.elementor-element-cc6693d > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-11885 .elementor-element.elementor-element-78d3ac0 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-11885 .elementor-element.elementor-element-78d3ac0 > .elementor-element-populated{padding:0px 100px 0px 100px;}.elementor-11885 .elementor-element.elementor-element-d656d4c .elementor-heading-title{color:#06565C;font-family:"Montserrat Font", Sans-serif;font-size:67px;font-weight:900;line-height:82px;}.elementor-11885 .elementor-element.elementor-element-9639003{color:#414245;font-family:"Open Sans", Sans-serif;font-size:36px;line-height:55px;}.elementor-11885 .elementor-element.elementor-element-0742c56 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-11885 .elementor-element.elementor-element-0742c56 > .elementor-element-populated{padding:0px 100px 0px 100px;}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Montserrat Font';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: ;
+}
+@font-face {
+	font-family: 'Montserrat Font';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/Montserrat-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat Font';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/Montserrat-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat Font';
+	font-style: normal;
+	font-weight: 900;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/Montserrat-ExtraBold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/OpenSans-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/OpenSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/OpenSans-ExtraBold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

@@ -1,0 +1,192 @@
+/* =============== PRICING COMPONENT START =============== */
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-section {
+    padding: 120px 0px 120px 0px;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-column>.elementor-element-populated {
+  overflow-x: clip;
+}
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table a:not([role]) {
+  color: #414245;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table a:not([role]):hover {
+  color:#087985;
+}
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-column > .elementor-element-populated {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 0 15px 0px 15px;
+  --e-column-margin-right: 15px;
+  --e-column-margin-left: 15px;
+  padding: 48px 40px 40px 40px;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-column:first-of-type > .elementor-element-populated {
+  margin: 0 15px 0 0;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-column:last-of-type > .elementor-element-populated {
+  margin: 0  0 0 15px;
+}
+
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading h2.elementor-heading-title {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading.employee-user > .elementor-widget-container {
+  margin: 0px 0px 48px 0px;
+  padding: 0px 35px 0px 35px;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading h3.elementor-heading-title {
+  font-family: "Montserrat Font", Sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading.price > .elementor-widget-container {
+    margin: 0px 0px 32px 0px;
+    padding: 0 0 0 0;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading.price h3.elementor-heading-title {
+  font-family: "Montserrat Font", Sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table  .elementor-widget-button.cta-btn>.elementor-widget-container {
+    margin: 24px 0px 40px 0px;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading.features>.elementor-widget-container {
+  margin: 0px 0px 30px 0px;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-text-editor.feature-list  p {
+  line-height: 54px;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading.disclaimer>.elementor-widget-container {
+  margin: 32px 0px 0px 0px
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading.disclaimer span.elementor-heading-title {
+  font-family: "Montserrat Font", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading.most-popular-tag {
+  left: 50%;
+  right: auto;
+  margin-left: -75px;
+  text-align: center;
+  width: initial;
+  max-width: initial;
+  top: -23px;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading.most-popular-tag  span.elementor-heading-title {
+  font-family: "Montserrat Font", Sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading.most-popular-tag>.elementor-widget-container {
+  padding: 8px 12px 8px 12px;
+  line-height: 20px;
+  margin: 3px 0px 0 0px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1366px) and (min-width: 1025px) {
+  
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table>.elementor-container {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 993px) {
+
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-text-editor.feature-list p {
+    line-height: 44px;
+  }
+
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading h2.elementor-heading-title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading.price h3.elementor-heading-title {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading.employee-user>.elementor-widget-container {
+    padding: 0px 14px 0px 14px;
+  }
+
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-widget-heading h3.elementor-heading-title {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media (max-width: 992px) {
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-column {
+    flex-basis: 50%;
+    width: 50%;
+  }
+
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-container {
+    row-gap: 50px;
+  }
+
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-column:last-of-type>.elementor-element-populated{
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-column {
+    flex-basis: 100%;
+    width: 100%;
+  }
+
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-column > .elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0;
+    
+  }
+  
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-column:first-of-type > .elementor-element-populated {
+    margin: 0;
+  }
+  
+  .elementor .elementor-section.elementor-element .elementor-section.elementor-element.pricing-table .elementor-column:last-of-type > .elementor-element-populated {
+    margin: 0;
+  }
+  
+}
+
+/* =============== PRICING COMPONENT END =============== */
+
+

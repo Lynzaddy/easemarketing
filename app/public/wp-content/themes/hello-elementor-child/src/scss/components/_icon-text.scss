@@ -1,0 +1,96 @@
+/* =============== ICON TEXT START =============== */
+
+.elementor .elementor-element.icon-text-section.elementor-section{
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 120px 0 120px 0;
+} 
+
+
+
+.elementor-default .elementor-element.icon-text-section.elementor-section .elementor-element h4{
+  margin: 0 0 80px 0;
+  padding: 0;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.elementor-default .elementor-element.icon-text-section.elementor-section .elementor-element h4 a{
+  color: #414245;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.elementor .elementor-element.cta-btn.elementor-widget-button.icon-text-cta > .elementor-widget-container{
+  margin: 70px 0 0 0;
+}
+
+.elementor .icon-text-section .three-col-icon.elementor-section .elementor-element.elementor-widget-image > .elementor-widget-container{
+  margin: 0 0 5px 0;
+}
+.elementor .icon-text-section .three-col-icon.elementor-section > .elementor-container {
+  row-gap: 70px;
+}
+.elementor .icon-text-section .three-col-icon.elementor-section > .elementor-container .elementor-element-populated {
+  margin: 0 45px;
+}
+
+@media (min-width: 768px) {
+.elementor .icon-text-section .three-col-icon.elementor-section .elementor-column {
+    flex: 1 1 33.33%;
+  }
+
+.elementor .icon-text-section .three-col-icon.elementor-section  .elementor-container {
+    flex-wrap: wrap;
+    justify-content: space-betwwen;
+  }
+
+.elementor .icon-text-section .three-col-icon.elementor-section .elementor-element.elementor-widget-image  img {
+    width: 117px;
+    height: 117px;
+  }
+
+.elementor .icon-text-section .three-col-icon.elementor-section .elementor-container p {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 991px) {
+
+.elementor .icon-text-section .three-col-icon.elementor-section .elementor-element.elementor-widget-image img {
+    width: 110px;
+    height: 110px;
+  }
+}
+@media (max-width: 767px) {
+
+.elementor .elementor-section.icon-text-section .elementor-section.elementor-inner-section.three-col-icon>.elementor-column-gap-default>.elementor-column{
+  width: 50%;
+}
+}
+
+@media (max-width: 575px) {
+
+  .elementor .elementor-section.icon-text-section .elementor-section.elementor-inner-section.three-col-icon>.elementor-column-gap-default>.elementor-column {
+    width: 100%;
+  }
+  .elementor .elementor-element.icon-text-section.elementor-section{
+   
+    padding: 80px 0;
+  } 
+  
+ 
+  .elementor-default .elementor-element.icon-text-section.elementor-section .elementor-element h4{
+    margin: 0 0 40px 0;
+  }
+  .elementor .icon-text-section .three-col-icon.elementor-section > .elementor-container {
+    row-gap: 30px;
+  }
+
+  .elementor .elementor-element.cta-btn.elementor-widget-button.icon-text-cta > .elementor-widget-container{
+    margin: 30px 0 0 0;
+  }
+}
+/* =============== ICON TEXT END =============== */
+
+

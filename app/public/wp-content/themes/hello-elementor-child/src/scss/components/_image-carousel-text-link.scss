@@ -1,0 +1,225 @@
+/* =============== IMAGE CAROUSEL TEXT LINK START =============== */
+
+.elementor .elementor-element.elementor-section.what-we-do-section {
+  padding-bottom: 160px;
+}
+.elementor .elementor-element.elementor-section.clip-v {
+  clip-path: polygon(100% -1%, 100% 85%, 50% 100%, 0 85%, 0 0)
+}
+
+.elementor .elementor-element.elementor-section.carousel-section-top .tool-heading h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elementor .elementor-element.elementor-section.carousel-section-top .tool-heading h2:after {
+  content: '';
+  background-image: url('/wp-content/uploads/2022/06/horn.png');
+  height: 75px;
+  width: 75px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 880px) {
+  .elementor .elementor-element.elementor-section.carousel-section-top .tool-heading h2 {
+    flex-direction: column;
+  }
+
+  .elementor .elementor-element.elementor-section.carousel-section-top .tool-heading h2:after {
+    display: block;
+    height: 56px;
+    width: 56px;
+    background-size: cover;
+  }
+
+  .elementor .elementor-element.elementor-section.clip-v {
+    clip-path: polygon(100% -1%, 100% 97%, 50% 100%, 0 97%, 0 0)
+  }
+  .elementor .elementor-element.elementor-section.what-we-do-section {
+    padding-bottom: 95px;
+  }
+}
+
+.elementor .elementor-element.carosel-wrapper.elementor-section .elementor-image-carousel img{
+  max-width: 80%;
+  width: 80%;
+  max-width: 240px;
+}
+
+.elementor .elementor-element.elementor-section.image-carosel-with-links .elementor-swiper-button-prev {
+  left: 0;
+}
+
+.elementor .elementor-element.elementor-section.image-carosel-with-links .elementor-swiper-button-next {
+  right: 0;
+}
+
+.elementor .elementor-element.elementor-section.carousel-section-top {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 120px 0 0 0;
+}
+
+.elementor .elementor-element.elementor-section.carousel-section-top .elementor-widget-heading h4.elementor-heading-title{
+  margin-bottom: 44px;
+}
+
+.elementor .elementor-element.elementor-section.carousel-section-bottom  {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 0 0 120px 0;
+}
+
+
+/***** Carousel ******/
+.elementor .elementor-element.carosel-wrapper.elementor-section .image-carousel-slider .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 6px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  border-radius: 100%;
+  text-indent: -9999px;
+  background-color: #C9EBDF;
+  border-color: #08A6A5;
+  border: 2px solid #08a6a5;
+  opacity: 1;
+}
+
+.elementor .elementor-element.carosel-wrapper.elementor-section .image-carousel-slider .swiper-container-horizontal>.swiper-pagination-bullets,
+.elementor .elementor-element.carosel-wrapper.elementor-section .swiper-pagination-custom,
+.elementor .elementor-element.carosel-wrapper.elementor-section .swiper-pagination-fraction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elementor .elementor-element.carosel-wrapper.elementor-section .image-carousel-slider .swiper-pagination-bullet-active {
+  background-color: #08A6A5 !important;
+}
+
+
+.elementor .elementor-element.carosel-wrapper.elementor-section .image-carousel-slider .swiper-button-disabled {
+  display: none;
+}
+/***** Carousel ******/
+
+
+/********************* Partner Carousel *********************/
+
+.elementor .elementor-element.elementor-section.ease-partner-section-top {
+  position: relative;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 120px 0px 0px 0px;
+}
+
+.elementor .elementor-element.elementor-section.ease-partner-section-top.no-bg:before,
+.elementor .elementor-element.elementor-section.ease-partner-section-bottom.no-bg:before  {
+  display: none;
+}
+.elementor .elementor-element.elementor-section.ease-partner-section-top:before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: url('/wp-content/uploads/2022/06/top-new.svg') no-repeat;
+  background-position: top right;
+  background-size: 612px;
+}
+
+.elementor .elementor-element.elementor-section.ease-partner-section-bottom {
+  position: relative;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding: 0px 0px 120px 0px;
+}
+
+
+.elementor .elementor-element.elementor-section.ease-partner-section-bottom .elementor-swiper-button-prev {
+  left: 0;
+}
+
+.elementor .elementor-element.elementor-section.ease-partner-section-bottom:before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: url('/wp-content/uploads/2022/06/bottom.svg') no-repeat;
+  background-position: bottom left;
+  background-size: 331px;
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1025px) {
+
+  .elementor .elementor-element.elementor-section.image-carosel-with-links .elementor-swiper-button-prev {
+    left: -10px;
+  }
+
+  .elementor .elementor-element.elementor-section.image-carosel-with-links .elementor-swiper-button-next {
+    right: -10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .elementor .elementor-element.elementor-section.ease-partner-section-bottom{
+    padding: 0 0 80px 0;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .elementor .elementor-element.elementor-section.ease-partner-section-top:before {
+    width: 80%;
+    background-size: contain;
+  }
+
+  .elementor .elementor-element.elementor-section.ease-partner-section-bottom:before {
+    width: 50%;
+    background-size: contain;
+  }
+
+  .elementor .elementor-element.elementor-section.ease-partner-section-bottom > .elementor-container > .elementor-column {
+    margin-bottom: -71px;
+  }
+  
+}
+/********************* Partner Carousel *********************/
+
+
+/********* Slider with Icon & Text **********/
+.elementor .elementor-element.elementor-section.slider-with-icon-text{
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 120px 0;
+}
+
+.elementor .elementor-element.elementor-section.slider-with-icon-text .pp-info-box .pp-info-box-icon {
+  margin-bottom: 16px;
+}
+
+.elementor .elementor-element.elementor-section.slider-with-icon-text .pp-info-box .pp-info-box-icon img{
+  width: 117px;
+}
+
+
+@media (max-width: 1370px) {
+ 
+}
+
+
+@media (max-width: 575px) {
+  .elementor .elementor-element.elementor-section.slider-with-icon-text{
+    overflow-x: hidden;
+    padding: 80px 0;
+  }
+}
+/********* Slider with Icon & Text **********/
+
+/* =============== IMAGE CAROUSEL TEXT LINK END =============== */
+
+

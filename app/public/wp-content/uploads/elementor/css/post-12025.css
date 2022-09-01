@@ -1,0 +1,43 @@
+.elementor-12025 .elementor-element.elementor-element-5a9ccec:not(.elementor-motion-effects-element-type-background), .elementor-12025 .elementor-element.elementor-element-5a9ccec > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#06565C;}.elementor-12025 .elementor-element.elementor-element-5a9ccec{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:200px 0px 200px 0px;}.elementor-12025 .elementor-element.elementor-element-5a9ccec > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-bc-flex-widget .elementor-12025 .elementor-element.elementor-element-4f5da77.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-12025 .elementor-element.elementor-element-4f5da77.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-12025 .elementor-element.elementor-element-d406cfc .elementor-heading-title{color:#FFFFFF;}.elementor-12025 .elementor-element.elementor-element-ed85c78{color:#FFFFFF;font-family:"Open Sans", Sans-serif;font-size:36px;line-height:55px;}.elementor-bc-flex-widget .elementor-12025 .elementor-element.elementor-element-fd16b9d.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-12025 .elementor-element.elementor-element-fd16b9d.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-12025 .elementor-element.elementor-element-b0d295c{text-align:center;}.elementor-12025 .elementor-element.elementor-element-b0d295c .elementor-heading-title{color:#FFFFFF;font-family:"Open Sans", Sans-serif;font-size:36px;line-height:55px;}.elementor-12025 .elementor-element.elementor-element-8de9364{text-align:center;}.elementor-12025 .elementor-element.elementor-element-8de9364 .elementor-heading-title{color:#FFFFFF;font-family:"Open Sans", Sans-serif;font-size:36px;line-height:55px;}.elementor-12025 .elementor-element.elementor-element-3736ea5{text-align:center;}.elementor-12025 .elementor-element.elementor-element-3736ea5 .elementor-heading-title{color:#FFFFFF;font-size:36px;line-height:55px;}.elementor-12025 .elementor-element.elementor-element-87c031a{text-align:center;}.elementor-12025 .elementor-element.elementor-element-87c031a .elementor-heading-title{color:#FFFFFF;font-family:"Open Sans", Sans-serif;font-size:36px;line-height:55px;}.elementor-12025 .elementor-element.elementor-element-6ac23ca{text-align:center;}.elementor-12025 .elementor-element.elementor-element-6ac23ca .elementor-heading-title{color:#FFFFFF;font-family:"Open Sans", Sans-serif;font-size:36px;line-height:55px;}.elementor-12025 .elementor-element.elementor-element-cc69239{text-align:center;}.elementor-12025 .elementor-element.elementor-element-cc69239 .elementor-heading-title{color:#FFFFFF;font-size:36px;line-height:55px;}@media(min-width:577px){.elementor-12025 .elementor-element.elementor-element-4f5da77{width:36%;}.elementor-12025 .elementor-element.elementor-element-fd16b9d{width:64%;}}@media(max-width:1140px) and (min-width:577px){.elementor-12025 .elementor-element.elementor-element-4f5da77{width:47%;}.elementor-12025 .elementor-element.elementor-element-fd16b9d{width:62%;}}@media(max-width:992px) and (min-width:577px){.elementor-12025 .elementor-element.elementor-element-4f5da77{width:100%;}.elementor-12025 .elementor-element.elementor-element-fd16b9d{width:100%;}}@media(max-width:1140px){.elementor-12025 .elementor-element.elementor-element-b0d295c .elementor-heading-title{font-size:30px;}.elementor-12025 .elementor-element.elementor-element-8de9364 .elementor-heading-title{font-size:30px;}.elementor-12025 .elementor-element.elementor-element-3736ea5 .elementor-heading-title{font-size:30px;}.elementor-12025 .elementor-element.elementor-element-87c031a .elementor-heading-title{font-size:30px;}.elementor-12025 .elementor-element.elementor-element-6ac23ca .elementor-heading-title{font-size:30px;}.elementor-12025 .elementor-element.elementor-element-cc69239 .elementor-heading-title{font-size:30px;}}@media(max-width:992px){.elementor-12025 .elementor-element.elementor-element-ed85c78{font-size:28px;line-height:38px;}}@media(max-width:768px){.elementor-12025 .elementor-element.elementor-element-ed85c78{font-size:22px;line-height:32px;}}@media(max-width:576px){.elementor-12025 .elementor-element.elementor-element-b0d295c .elementor-heading-title{font-size:24px;line-height:34px;}.elementor-12025 .elementor-element.elementor-element-8de9364 .elementor-heading-title{font-size:24px;line-height:34px;}.elementor-12025 .elementor-element.elementor-element-3736ea5 .elementor-heading-title{font-size:24px;line-height:34px;}.elementor-12025 .elementor-element.elementor-element-87c031a .elementor-heading-title{font-size:24px;line-height:34px;}.elementor-12025 .elementor-element.elementor-element-6ac23ca .elementor-heading-title{font-size:24px;line-height:34px;}.elementor-12025 .elementor-element.elementor-element-cc69239 .elementor-heading-title{font-size:24px;line-height:34px;}}/* Start custom CSS for image, class: .elementor-element-0b0e60f */.ease-partner-section-top {
+    position: relative;
+}
+
+.ease-partner-section-top:before {
+    position: absolute;
+    content:'';
+    display: block;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background: url('/wp-content/uploads/2022/06/top-new.svg') no-repeat;
+    background-position: top right
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/OpenSans-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/OpenSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/OpenSans-ExtraBold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

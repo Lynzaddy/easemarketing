@@ -1,0 +1,209 @@
+/* =============== 50/50 [2] START =============== */
+
+.elementor .elementor-element.elementor-section.broker-section {
+  margin-top: 0px;
+  margin-bottom: 120px;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.elementor .elementor-element.elementor-section.broker-section .right-col {
+  transform: translateX(54px);
+}
+
+.elementor .elementor-element.elementor-section.broker-section .left-col > .elementor-element-populated{
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 0;
+  --e-column-margin-right: 0;
+  --e-column-margin-left: 0;
+  padding: 70px 0 75px 60px;
+}
+
+.elementor .elementor-element.elementor-section.broker-section .right-col > .elementor-element-populated{
+transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 0px 0px 0px 15px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 15px;
+  padding: 70px 0 75px 60px;
+}
+
+.elementor .elementor-element.elementor-section.broker-section .elementor-widget-text-editor p{
+  line-height: 31px;
+  margin-bottom: 31px;
+}
+
+.elementor .elementor-element.elementor-section.broker-section .elementor-widget-text-editor > .elementor-widget-container {
+  padding: 0;
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1200px) {
+
+  .elementor .elementor-element.elementor-section.broker-section .right-col {
+    transform: translateX(10px);
+  }
+
+  .elementor .elementor-element.elementor-section.broker-section .elementor-inner-section>.elementor-container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .elementor .elementor-element.elementor-section.broker-section .elementor-col-50>.elementor-element-populated {
+    justify-content: flex-start;
+  }
+
+
+
+  .elementor .elementor-element.elementor-section.broker-section {
+    margin-bottom: 80px;
+  }
+  .elementor .elementor-element.elementor-section.broker-section .right-col > .elementor-element-populated,
+  .elementor .elementor-element.elementor-section.broker-section .left-col > .elementor-element-populated{
+    padding: 41px 31px;
+    margin:0;
+    justify-content: flex-start;
+   
+  }
+  .elementor .elementor-element.elementor-section.broker-section .elementor-widget-text-editor > .elementor-widget-container {
+    padding: 0;
+  }
+  .elementor .elementor-element.elementor-section.broker-section > .elementor-inner-section > .elementor-container {
+    row-gap: 30px;
+  }
+
+  .elementor .elementor-element.elementor-section.broker-section .right-col {
+    transform: unset
+  }
+
+  .elementor .elementor-element.elementor-section.broker-section .elementor-container {
+    row-gap: 30px;
+  }
+
+
+
+  .elementor .elementor-element.elementor-section.broker-section .elementor-element.left-col:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+  .elementor .elementor-element.elementor-section.broker-section .elementor-element.left-col>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-size: 110%;
+  }
+
+  .elementor .elementor-element.elementor-section.broker-section .elementor-element.right-col:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+  .elementor .elementor-element.elementor-section.broker-section .elementor-element.right-col>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-size: 116%;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .elementor .elementor-element.elementor-section.broker-section .elementor-element.right-col:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+    .elementor .elementor-element.elementor-section.broker-section .elementor-element.right-col>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+      background-size: 116%;
+    }
+}
+
+@media (max-width: 480px) {
+
+  .elementor .elementor-element.elementor-section.broker-section .elementor-element.left-col:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+    .elementor .elementor-element.elementor-section.broker-section .elementor-element.left-col>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+      background-size: 130%;
+    }
+  
+    .elementor .elementor-element.elementor-section.broker-section .elementor-element.right-col:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+    .elementor .elementor-element.elementor-section.broker-section .elementor-element.right-col>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+      background-size: 130%;
+    }
+}
+
+@media (max-width: 380px) {
+
+  .elementor .elementor-element.elementor-section.broker-section .elementor-element.left-col:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+    .elementor .elementor-element.elementor-section.broker-section .elementor-element.left-col>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+      background-size: cover;
+    }
+  
+    .elementor .elementor-element.elementor-section.broker-section .elementor-element.right-col:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+    .elementor .elementor-element.elementor-section.broker-section .elementor-element.right-col>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+      background-size: cover;
+    }
+}
+
+/*
+.elementor .elementor-element.elementor-section.broker-section .right-col .col-image {
+  top: auto;
+  bottom: -60px;
+}
+
+@media (max-width: 1539px) {
+
+  .elementor .elementor-element.elementor-section.broker-section .right-col .col-image {
+    top: auto;
+    bottom: -60px;
+  }
+}
+
+@media (max-width: 1370px) {
+  body:not(.rtl) .elementor .elementor-element.elementor-section.broker-section .left-col .col-image {
+    left: 240px;
+  }
+
+  .elementor .elementor-element.elementor-section.broker-section .left-col .col-image {
+    width: 400px;
+    top: auto;
+    bottom: -60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body:not(.rtl) .elementor .elementor-element.elementor-section.broker-section .left-col .col-image {
+    left: auto;
+    right: 0;
+  }
+
+  .elementor .elementor-element.elementor-section.broker-section .left-col .col-image {
+    width: 400px;
+    top: -506px;
+  }
+
+  body:not(.rtl) .elementor .elementor-element.elementor-section.broker-section .right-col .col-image {
+    left: auto;
+    right: 0px;
+  }
+
+  .elementor .elementor-element.elementor-section.broker-section .right-col .col-image {
+    top: auto;
+    bottom: -60px;
+    width: 400px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  body:not(.rtl) .elementor .elementor-element.elementor-section.broker-section .left-col .col-image {
+    left: auto;
+    right: -25px;
+  }
+
+  .elementor .elementor-element.elementor-section.broker-section .left-col .col-image {
+    width: 200px;
+    top: auto;
+    bottom: -10px;
+  }
+
+  .elementor .elementor-element.elementor-section.broker-section .right-col .col-image {
+    top: auto;
+    bottom: -10px;
+    width: 250px;
+  }
+
+  body:not(.rtl) .elementor .elementor-element.elementor-section.broker-section .right-col .col-image {
+    left: auto;
+    right: -35px;
+  }
+}
+*/
+
+
+/* =============== 50/50 [2] END =============== */
+
+

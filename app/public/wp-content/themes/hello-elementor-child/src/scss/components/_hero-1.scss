@@ -1,0 +1,306 @@
+/* =============== HERO TREATMENT 1 START =============== */
+
+.elementor .elementor-section.elementor-element.hero-treatment-1{
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0;
+  padding: 0;
+}
+
+.elementor .elementor-element.hero-treatment-1 h2.elementor-heading-title {
+  font-family: "Montserrat Font", Sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 88px;
+}
+
+.elementor .elementor-element.hero-treatment-1 > .elementor-container > .elementor-column > .elementor-element-populated{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0;
+    --e-column-margin-right: 0;
+    --e-column-margin-left: 0;
+    padding: 28px 0 121px 0;
+}
+
+body.hero-1-dropdown-open .elementor .elementor-element.hero-treatment-1 > .elementor-container > .elementor-column > .elementor-element-populated{
+    padding: 28px 0 200px 0;
+}
+
+.elementor .elementor-element.hero-curve > .elementor-container > .elementor-column.elementor-element > .elementor-element-populated {
+  clip-path: ellipse(90% 55% at 50% 44%);
+}
+
+.banner_dropdown select {
+  display: none;
+}
+
+.banner_dropdown {
+  display: inline-block;
+}
+
+.banner_dropdown .dropdown {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  float: left;
+  outline: none;
+  position: relative;
+  text-align: left !important;
+  transition: all 0.2s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  width: auto;
+  font-size: 72px;
+  color: #087985;
+  font-family: "Montserrat";
+  line-height: 72px;
+
+  padding-right: 75px;
+  // padding-left: 20px;
+  font-weight: 500;
+  padding-bottom: 15px;
+  margin-bottom: -26px;
+} 
+.banner_dropdown .dropdown .current {
+  border-bottom: 6px solid #fff;
+}
+.banner_dropdown.active .dropdown {
+
+
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  float: left;
+  outline: none;
+  position: relative;
+  text-align: left !important;
+  transition: all 0.2s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  width: auto;
+  font-size: 72px;
+  color: #087985;
+  font-family: "Montserrat";
+  /*border-bottom: 6px solid #fff;*/
+  //border-bottom: 6px solid #00575d;
+  padding-right: 75px;
+
+  font-weight: 500;
+  padding-bottom: 15px;
+  margin-bottom: -26px;
+}
+
+.banner_dropdown .dropdown ul {
+  padding: 0;
+}
+
+.banner_dropdown .dropdown ul li.option:hover {
+  color: #fff !important;
+  background-color: #06565c;
+}
+
+.banner_dropdown .dropdown:after {
+  background-image: url("/wp-content/uploads/2022/06/dropdown-down.png");
+  content: "";
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 25px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  background-repeat: no-repeat;
+}
+
+.banner_dropdown .dropdown li.option.selected {
+  display: none;
+}
+
+.dropdown.open:after {
+  transform: rotate(-180deg) translateY(50%);
+}
+
+.dropdown.open .list {
+  transform: scale(1);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.dropdown.open .option {
+  cursor: pointer;
+}
+
+.banner_dropdown .dropdown.open {
+  padding-left: 20px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#40FFFFFF", endColorstr="#00FFFFFF", GradientType=0);
+  background-color: rgba(255, 255, 255, .3);
+}
+.dropdown.wide {
+  width: 100%;
+}
+
+.dropdown.wide .list {
+  left: 0 !important;
+  right: 0 !important;
+}
+
+.dropdown .banner_dropdown_list {
+  box-sizing: border-box;
+  transition: all 0.15s cubic-bezier(0.25, 0, 0.25, 1.75), opacity 0.1s linear;
+  transform: scale(0.75);
+  transform-origin: 50% 0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.09);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 6px;
+  margin-top: 4px;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  padding: 0;
+}
+
+.banner_dropdown .dropdown .option {
+  cursor: default;
+  outline: none;
+  padding-left: 45px;
+  padding-right: 45px;
+  text-align: left;
+  transition: all 0.2s;
+  border-bottom: 4px solid #52bfb8;
+  line-height: 95px;
+  font-weight: 500;
+  font-size: 72px;
+  color: #087985;
+}
+
+
+.by {
+  bottom: 12px;
+  color: #aaa;
+  font-size: 12px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1025px) {
+
+  .banner_dropdown .dropdown:after {
+    right: 39px;
+    margin-top: -3px;
+    width: 19px;
+    height: 17px;
+    background-size: contain;
+  }
+
+    body.hero-1-dropdown-open .elementor .elementor-element.hero-treatment-1>.elementor-container>.elementor-column>.elementor-element-populated {
+      padding: 28px 0 240px;
+    }
+  
+    .elementor .elementor-element.hero-treatment-1 h2.elementor-heading-title {
+      font-size: 44px;
+      line-height: 54px;
+    }
+  
+    .banner_dropdown.active .dropdown {
+      font-size: 44px;
+      line-height: 54px;
+    }
+  
+    .banner_dropdown .dropdown {
+      font-size: 44px;
+      line-height: 54px;
+    }
+  
+    .banner_dropdown .dropdown .option {
+      font-size: 44px;
+      line-height: 54px;
+    }
+}
+
+@media (max-width: 1024px) {
+  .dropdown .banner_dropdown_list {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+	body.hero-1-dropdown-open .elementor .elementor-element.hero-treatment-1>.elementor-container>.elementor-column>.elementor-element-populated {
+		padding: 28px 0 240px ;
+	}
+
+  .banner_dropdown .dropdown:after {
+    right: 39px;
+    margin-top: -3px;
+    width: 19px;
+    height: 17px;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 767px) {
+
+
+  body.hero-1-dropdown-open .elementor .elementor-element.hero-treatment-1>.elementor-container>.elementor-column>.elementor-element-populated {
+    padding: 28px 0 240px;
+  }
+  
+  .elementor .elementor-element.hero-treatment-1 h2.elementor-heading-title {
+    font-size: 44px;
+    line-height: 54px;
+  }
+
+  .banner_dropdown.active .dropdown {
+    font-size: 44px;
+    line-height: 54px;
+  }
+
+  .banner_dropdown .dropdown {
+    font-size: 44px;
+    line-height: 54px;
+  }
+
+  .banner_dropdown .dropdown .option {
+    font-size: 44px;
+    line-height: 54px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+
+  .elementor .elementor-element.hero-curve .curve-0>.elementor-element-populated {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .elementor .elementor-element.hero-curve > .elementor-container > .elementor-column.elementor-element > .elementor-element-populated {
+    clip-path: ellipse(140% 55% at 50% 44%);
+  }
+  .page .elementor .elementor-element.hero-curve > .elementor-widget-wrap.elementor-element-populated {
+    padding: 0 0 45px 0 !important;
+  }
+
+}
+ 
+
+
+/* =============== HERO TREATMENT 1 END =============== */
+
+

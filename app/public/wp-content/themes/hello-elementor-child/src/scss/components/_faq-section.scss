@@ -1,0 +1,46 @@
+.elementor .faq-section .inner-section > .elementor-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    row-gap: 60px
+}
+
+.elementor .faq-section .heading h2 {
+    margin-bottom: 120px !important;
+}
+.elementor .faq-section .inner-section > .elementor-container > .elementor-column {
+   width: 100%
+}
+
+.elementor .faq-section .inner-section > .elementor-container > .elementor-column .image-wrap img {
+    height:68px;
+    width: 68px;
+}
+
+
+.elementor .faq-section .inner-section > .elementor-container > .elementor-column > .elementor-element-populated {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: auto 1fr;
+    padding: 0;
+}
+
+.elementor .faq-section .inner-section > .elementor-container > .elementor-column > .elementor-element-populated .question {
+   grid-column: 2;
+}
+
+.elementor .faq-section .inner-section > .elementor-container > .elementor-column > .elementor-element-populated .answer {
+   grid-column: 2;
+}
+
+
+@media screen and (max-width: 992px) {
+    .elementor .faq-section .inner-section > .elementor-container {
+        grid-template-columns: 1fr ;
+        row-gap: 30px
+    }
+    
+    .elementor .faq-section .heading h2 {
+        margin-bottom: 60px !important;
+    }
+}

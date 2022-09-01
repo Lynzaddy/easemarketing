@@ -1,0 +1,85 @@
+.related-content-component {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -65px;
+
+    .card {
+        margin-bottom: 65px;
+    }
+
+    .card .text-wrap h3 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+
+    .card .text-wrap span.excerpt {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .card.cardv2 .text-wrap {
+        padding: 32px 24px;
+    }
+
+    .card .text-wrap .cat-tags{
+        margin-top: 40px;
+    }
+
+    .card .text-wrap .cat-tags span{
+        padding: 4px 20px;
+        font-size: 16px;
+    }
+
+    @media (max-width: 575px) {
+        .card .text-wrap h3 a {
+            font-size: 28px;
+        }
+
+        .card .text-wrap h3{
+            margin-bottom: 30px;
+        }
+
+        .card .text-wrap span.excerpt {
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 30px;
+        }
+
+        .card.cardv2 .text-wrap .date-location span{
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+    }
+}
+
+.related-content-component > .container{
+    padding: 0;
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .related-content-component .card .text-wrap span.excerpt{
+        font-size: 16px;
+    }
+
+    .related-content-component .card .text-wrap h3 a{
+        font-size: 24px;
+    }
+
+    .related-content-component .card .text-wrap h3 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+}
+
+.resource-cards-component .card.cardv2 .text-wrap {
+    padding-bottom: 47px;
+}
+
+.elementor .elementor-element.elementor-section.related-content-section{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    
+}

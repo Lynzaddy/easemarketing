@@ -1,0 +1,38 @@
+.elementor-12713 .elementor-element.elementor-element-c6b6305:not(.elementor-motion-effects-element-type-background), .elementor-12713 .elementor-element.elementor-element-c6b6305 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FCFCF7;}.elementor-12713 .elementor-element.elementor-element-c6b6305{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:0px;padding:150px 0px 150px 0px;}.elementor-12713 .elementor-element.elementor-element-c6b6305 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-12713 .elementor-element.elementor-element-c17e1dc.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-12713 .elementor-element.elementor-element-01dbd00{text-align:center;color:#414245;font-family:"Open Sans", Sans-serif;font-size:36px;line-height:55px;width:1026px;max-width:1026px;}@media(max-width:992px){.elementor-12713 .elementor-element.elementor-element-01dbd00{font-size:28px;}}@media(max-width:576px){.elementor-12713 .elementor-element.elementor-element-01dbd00{font-size:22px;line-height:36px;}}/* Start custom CSS for section, class: .elementor-element-c6b6305 */.simple-text-section{
+    position: relative;
+}
+
+.pricing-simple-text-section p a{
+    color: #08A6A5;
+    font-weight: 600;
+    
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/OpenSans-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/OpenSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('https://easestage.wpengine.com/wp-content/uploads/2022/06/OpenSans-ExtraBold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

@@ -1,0 +1,37 @@
+/* =============== SIMPLE TEXT SECTION START =============== */
+
+.elementor .elementor-section.elementor-element.body-text{
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 104px 0px 88px 0px;
+}
+
+.elementor-default .elementor-element.simple-text-section a{
+  color: #414245;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.elementor-default .elementor-element.simple-text-section a:hover{
+  color: #08A6A5;
+}
+
+.elementor .elementor-section.elementor-element.body-text.resources-simple-text-section{
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 120px 0px 0 0px;
+}
+
+.elementor .elementor-section.elementor-element.body-text h4+h4 {
+  margin-top: 48px;
+}
+@media screen and (max-width: 767px) {
+  .elementor .elementor-section.elementor-element.body-text{
+    padding: 70px 0px 60px 0px;
+  }
+}
+/* =============== SIMPLE TEXT SECTION END =============== */
+
+

@@ -1,0 +1,128 @@
+/* =============== SIMPLE TEXT WITH IMAGE RIGHT START =============== */
+
+.elementor .elementor-section.elementor-element.simple-text-with-image-right{
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 120px 0px 120px 0px;
+}
+
+.elementor .elementor-section.elementor-element.simple-text-with-image-right .elementor-column.elementor-element.left-col>.elementor-element-populated{
+  padding-right: 28px;
+}
+
+.elementor .elementor-section.elementor-element.simple-text-with-image-right .elementor-column.elementor-element.right-col>.elementor-element-populated{
+  padding-left: 28px;
+  align-content: center;
+  margin-bottom: 0px;
+}
+
+.elementor .elementor-section.elementor-element.simple-text-with-image-right .elementor-widget-button.cta-btn > .elementor-widget-container{
+  margin-top: 30px;
+}
+.elementor .elementor-section.elementor-element.simple-text-with-image-right.pricing---simple-text-with-image-right .elementor-column.elementor-element.right-col > .elementor-element-populated{
+    padding: 0px 96px 0px 80px;
+}
+
+.elementor .elementor-section.elementor-element.simple-text-with-image-right.partner---simple-text-with-image-right .elementor-column.elementor-element.right-col > .elementor-element-populated{
+  padding: 0 0 120px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .elementor .elementor-section.elementor-element.simple-text-with-image-right {
+    padding: 80px 0px;
+  }
+
+  .elementor .elementor-section.elementor-element.simple-text-with-image-right .elementor-column.elementor-element.left-col>.elementor-element-populated{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .elementor .elementor-section.elementor-element.simple-text-with-image-right > .elementor-column-gap-default {
+    flex-direction: column-reverse;
+  }
+
+  .elementor .elementor-section.elementor-element.simple-text-with-image-right > .elementor-column-gap-default > .right-col {
+    margin-bottom: 30px;
+  }
+
+  .elementor .elementor-section.elementor-element.simple-text-with-image-right>.elementor-column-gap-default>.right-col .elementor-widget-image{
+    text-align: left;
+  }
+
+  .elementor .elementor-section.elementor-element.simple-text-with-image-right>.elementor-column-gap-default>.left-col .elementor-widget-text-editor{
+    text-align: left;
+  }
+
+  .elementor .elementor-section.elementor-element.simple-text-with-image-right > .elementor-column-gap-default > .right-col .elementor-widget-image img{
+    max-width: 200px;
+  }
+
+  .elementor .elementor-section.elementor-element.simple-text-with-image-right.pricing---simple-text-with-image-right .elementor-column.elementor-element.right-col>.elementor-element-populated {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .elementor .elementor-section.elementor-element.simple-text-with-image-right>.elementor-column-gap-default>.left-col .elementor-widget-text-editor>.elementor-widget-container {
+    margin-bottom: 0;
+  }
+}
+
+/******* Pricing Page ********/
+// .elementor .elementor-section.elementor-element.simple-text-with-image-right.resources---simple-text-with-image-right{
+//   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+//   padding: 120px 0px 120px 0px;
+//   z-index: 0;
+//   margin-bottom: 0px;
+// }
+// @media screen and (max-width: 767px) {
+//   .elementor .elementor-section.elementor-element.simple-text-with-image-right.resources---simple-text-with-image-right {
+//     padding: 80px 0 80px 0px;
+//   }
+// }
+/******* Pricing Page ********/
+
+
+/******* Pricing Page ********/
+// .elementor .elementor-section.elementor-element.pricing---simple-text-with-image-right{
+//   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+//   padding: 120px 0px 120px 0px;
+// }
+
+// .elementor .elementor-section.elementor-element.pricing---simple-text-with-image-right .elementor-column.elementor-element.left-col > .elementor-element-populated{
+//     padding: 0px 80px 0px 96px;
+// }
+
+// .elementor .elementor-section.elementor-element.pricing---simple-text-with-image-right .elementor-column.elementor-element.right-col > .elementor-element-populated{
+//     padding: 0px 96px 0px 80px;
+// }
+
+// @media screen and (max-width: 767px) {
+//   .elementor .elementor-section.elementor-element.pricing---simple-text-with-image-right {
+//     padding: 80px 0px;
+//   }
+// }
+/******* Pricing Page ********/
+
+
+/******* Partner Page ********/
+// .elementor .elementor-section.elementor-element.partner---simple-text-with-image-right{
+//   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+//   padding: 0 0 120px 0;
+// }
+
+// .elementor .elementor-section.elementor-element.partner---simple-text-with-image-right .elementor-widget-text-editor.top-para > .elementor-widget-container{
+//   margin: 0px 0px 60px 0px;
+// }
+// @media screen and (max-width: 767px) {
+//   .elementor .elementor-section.elementor-element.partner---simple-text-with-image-right {
+//     padding: 0 0 80px 0px;
+//   }
+// }
+/******* Partner Page ********/
+
+
+
+/* =============== SIMPLE TEXT WITH IMAGE RIGHT END =============== */
+
+

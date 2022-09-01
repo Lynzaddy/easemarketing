@@ -1,0 +1,87 @@
+/* =============== TEXT WITH ICONS RIGHT START =============== */
+
+.elementor .elementor-section.elementor-element.two-col-with-icon-text > .elementor-container {
+  max-width: 1280px;
+}
+
+.elementor .elementor-section.elementor-element.two-col-with-icon-text  {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 120px 0px 160px 0px;
+}
+
+.elementor .elementor-section.elementor-element.two-col-with-icon-text .elementor-widget-image img {
+  max-width: 120px;
+}
+
+.elementor .elementor-section.elementor-element.two-col-with-icon-text .elementor-widget-heading h4.elementor-heading-title,
+.elementor .elementor-section.elementor-element.two-col-with-icon-text .elementor-widget-text-editor h4
+ {
+  margin-bottom: 0;
+}
+
+
+
+
+.elementor .elementor-section.elementor-element.two-col-text-with-icons-right .icons-column > .elementor-column-gap-default {
+  flex-wrap: wrap;
+}
+
+.elementor .elementor-section.elementor-element.two-col-text-with-icons-right .icons-column > .elementor-column-gap-default .elementor-column.custom-col {
+  width: 33.33333%;
+}
+
+.elementor .elementor-section.elementor-element.two-col-text-with-icons-right .icons-column>.elementor-column-gap-default .elementor-column.custom-col:nth-child(-n+3) {
+  margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 1366px) and (min-width: 1200px) {
+  .elementor .elementor-section.elementor-element.two-col-with-icon-text > .elementor-container {
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+  
+
+}
+
+@media screen and (max-width: 575px) {
+
+.elementor .elementor-section.elementor-element.two-col-text-with-icons-right .icons-column>.elementor-column-gap-default .elementor-column.custom-col {
+  width: 50%;
+}
+
+.elementor .elementor-section.elementor-element.two-col-text-with-icons-right .icons-column>.elementor-column-gap-default .elementor-column.custom-col {
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.elementor .elementor-section.elementor-element.two-col-text-with-icons-right .icons-column>.elementor-column-gap-default .elementor-column.custom-col:first-child, 
+.elementor .elementor-section.elementor-element.two-col-text-with-icons-right .icons-column>.elementor-column-gap-default .elementor-column.custom-col:nth-child(2) 
+{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+.elementor .elementor-section.elementor-element.two-col-text-with-icons-right .icons-column>.elementor-column-gap-default .elementor-column.custom-col {
+  width: 100%;
+}
+
+.elementor .elementor-section.elementor-element.two-col-text-with-icons-right .icons-column>.elementor-column-gap-default .elementor-column.custom-col {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.elementor .elementor-section.elementor-element.two-col-text-with-icons-right .icons-column>.elementor-column-gap-default .elementor-column.custom-col+.elementor-column.custom-col {
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+}
+/* =============== TEXT WITH ICONS RIGHT END =============== */
+
+

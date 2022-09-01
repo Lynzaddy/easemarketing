@@ -1,0 +1,242 @@
+/* =============== MARKETO FORM SECTION START =============== */
+.elementor .elementor-element.elementor-section.form-section {
+  padding: 120px 0;
+}
+
+.elementor .elementor-element.elementor-section.form-section .elementor-widget-heading h4.elementor-heading-title{
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section.marketo-form-sidebar .mktoForm {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 660px;
+  background-color: transparent;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section.form-full-width .mktoForm {
+  background-color: transparent;
+  max-width: 870px;
+  padding: 0 35px !important;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm {
+  background-color: transparent;
+  width: 100% !important;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm .mktoFormCol {
+  width: 100%;
+}
+
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm .mktoField {
+  padding: 20px 50px !important;
+  border-radius: 37px !important;
+  border-color: #e1e1dd !important;
+  color: #9A9A9A !important;
+  font-family: "Open Sans", Sans-serif !important;
+  line-height: 32px !important;
+  font-size: 24px !important;
+  height: 74px;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm select.mktoField {
+  font-size: 24px;
+  background-position: calc(100% - 1.75rem) center !important;
+  appearance: none !important;
+  background: url(/wp-content/uploads/2022/05/Group-666.svg) no-repeat right #fff;
+  font-family: "Open Sans", Sans-serif !important;
+  font-weight: 400;
+  -webkit-appearance: none;
+
+} 
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm select.mktoField~.dropdown {
+  display: none !important;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm .mktoOffset {
+  display: none;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm select.mktoField {
+  background-position: calc(100% - 1.75rem) center !important;
+  appearance: none !important;
+  background: url(/wp-content/uploads/2022/05/Group-666.svg) no-repeat right #fff;
+  font-family: "Open Sans", Sans-serif !important;
+  font-weight: 400;
+  font-size: 24px !important;
+  line-height: 32px;
+  color: #9A9A9A !important;
+  margin-bottom: 0 !important;
+  border: 1px solid;
+  border-radius: 55px !important;
+  background-size: 20px;
+}
+
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm .mktoField.dropdown {
+  background-position: calc(100% - 1.75rem) center !important;
+  appearance: none !important;
+  background: url(/wp-content/uploads/2022/05/Group-666.svg) no-repeat right #fff;
+  font-family: "Open Sans", Sans-serif !important;
+  font-weight: 400;
+  font-size: 24px !important;
+  line-height: 32px;
+  color: #9A9A9A !important;
+  margin-bottom: 0 !important;
+  border: 1px solid;
+  border-radius: 55px !important;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm input {
+  font-size: 24px !important;
+  line-height: 32px;
+  color: #9A9A9A !important;
+  margin-bottom: 0 !important;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm input,
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm input::placeholder {
+  line-height: 32px !important;
+  font-size: 24px !important;
+  color: #9A9A9A !important;
+  margin-bottom: 0 !important;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section.marketo-form-full-width .mktoForm .mktoFormRow {
+  margin-bottom: 5px;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section.marketo-form-sidebar .mktoForm .mktoFormRow {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm .mktoRequiredField .mktoAsterix {
+  display: none !important;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section.marketo-form-sidebar span.mktoButtonWrap.mktoSimple {
+  margin-left: 0 !important;
+  display: block;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+  font-size: 17px !important;
+  line-height: 20px;
+  padding: 20px 80px 20px 80px !important;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
+  background: white !important;
+  color: #06565c !important;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section.marketo-form-full-width span.mktoButtonWrap.mktoSimple {
+  margin-left: 0 !important;
+  display: block;
+  margin-top: 15px;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+  background-image: linear-gradient(to bottom, #06565C, #06565C) !important;
+  border: 3px solid #06565c !important;
+  font-family: "Roboto", Sans-serif;
+  font-size: 17px !important;
+  font-weight: 600;
+  line-height: 20px;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #06565C !important;
+  border-radius: 41px 41px 41px 41px;
+  padding: 20px 80px !important;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section.light-bg .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+  border: none !important;
+}
+
+.elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm .mktoGutter {
+  display: none;
+}
+
+@media(max-width: 767px) {
+
+  .elementor .elementor-element.elementor-section .elementor-element.marketo-form-section.marketo-form-sidebar .mktoForm {
+    width: 100% !important;
+  }
+
+  .elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm .mktoField {
+    padding: 20px 20px !important;
+  }
+
+
+  .elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm input {
+    font-size: 18px !important;
+    line-height: 29px;
+  }
+
+  .elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm input,
+  .elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm input::placeholder {
+
+    font-size: 18px;
+    line-height: 29px;
+
+  }
+
+  .elementor .elementor-element.elementor-section .elementor-element.marketo-form-section .mktoForm select.mktoField {
+    font-size: 18px;
+
+  }
+
+  .elementor .elementor-element.elementor-section.marketo-form-section .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+    padding: 15px 60px 15px 60px !important;
+  }
+
+}
+
+.elementor .elementor-element.elementor-section.marketo-form-section .mktoForm .elementor-widget:not(:last-child) {
+  margin-bottom: 0 !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .elementor .elementor-element.elementor-section.marketo-form-section .mktoForm .mktoField {
+    width: 500px !important;
+  }
+}
+
+
+@media only screen and (max-width: 575px) {
+
+  .elementor .elementor-element.elementor-section.marketo-form-section .mktoForm .mktoField {
+    width: 100% !important;
+  }
+
+  .elementor .elementor-element.elementor-section.marketo-form-section .mktoForm select.mktoField {
+    height: auto;
+    padding: 10px 15px !important;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+  .mktoForm select.mktoField {
+    height: auto;
+    padding: 10px 15px !important;
+  }
+}
+ 
+
+
+/* =============== MARKETO FORM SECTION END =============== */
+
+

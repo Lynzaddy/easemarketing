@@ -1,0 +1,828 @@
+body {
+  overflow-x: hidden;
+  h2,
+h3 {
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 700;
+}
+}
+
+body li,
+body p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.elementor .elementor-section.elementor-section-boxed>.elementor-container {
+  max-width: 1280px;
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1200px) {
+  
+  .elementor .elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1200px;
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1025px) {
+
+  .elementor .elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1025px;
+    padding: 0 20px 0 20px;
+  }
+}
+
+
+
+[data-elementor-type="wp-page"]{
+  overflow-x: hidden;
+}
+
+.elementor .elementor-element.margin-bottom-0{
+  margin-bottom: 0 !important;
+}
+
+.elementor .elementor-element.margin-top-0{
+  margin-top: 0!important;
+}
+
+.elementor .elementor-element.padding-top-0{
+  padding-top: 0!important;
+}
+
+.elementor .elementor-element.padding-bottom-0{
+  padding-bottom: 0!important;
+}
+
+body.elementor-default .elementor .elementor-element p,
+body.elementor-default .elementor .elementor-element ul li,
+body.elementor-default .elementor .elementor-element ol li,
+body.single p,
+body.single ul li,
+body.single ol li,
+body p,
+body ul li,
+body ol li,
+body.elementor-default .elementor .elementor-element {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 36px;
+}
+
+body.elementor-default .elementor .elementor-element p a,
+body.elementor-default .elementor .elementor-element ul li a,
+body.elementor-default .elementor .elementor-element ol li a{
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+body.elementor-default .elementor .elementor-element .elementor-widget-text-editor p a,
+body.elementor-default .elementor .elementor-element .elementor-widget-heading h4 a,
+body.elementor-default .elementor .elementor-element .elementor-widget-text-editor h4 a,
+body.elementor-default .elementor .elementor-element .elementor-widget-text-editor ul li a,
+body.elementor-default .elementor .elementor-element .elementor-widget-text-editor ol li a,
+body.elementor-default .elementor .elementor-element .elementor-widget-heading p a
+
+{
+  font-weight: 700;
+  text-decoration: underline;
+  color: #414245;
+}
+
+body.elementor-default .elementor .elementor-element .elementor-widget-text-editor p a:hover,
+body.elementor-default .elementor .elementor-element .elementor-widget-heading h4 a:hover,
+body.elementor-default .elementor .elementor-element .elementor-widget-text-editor h4 a:hover,
+body.elementor-default .elementor .elementor-element .elementor-widget-text-editor ul li a:hover,
+body.elementor-default .elementor .elementor-element .elementor-widget-text-editor ol li a:hover {
+  color: #087985;
+}
+
+body.single ul,
+body.single ol,
+body.elementor-default .elementor .elementor-element .elementor-widget-text-editor ul,
+body.elementor-default .elementor .elementor-element .elementor-widget-text-editor ol{
+    margin: 7px 0 15px 0;
+    padding-left: 80px;
+
+    @media (max-width: 992px) {
+      padding-left: 55px;
+    }
+}
+
+.elementor-default .elementor .elementor-element h1.elementor-heading-title,
+body.single h1,
+body.page h1
+ {
+  font-family: "Montserrat Font", Sans-serif;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 88px;
+}
+
+.elementor-default .elementor .elementor-element h2.elementor-heading-title,
+body.single h2, 
+body.page h2 
+{
+  font-family: "Montserrat Font", Sans-serif;
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 66px;
+  margin-bottom: 18px;
+}
+
+.elementor-default .elementor .elementor-element h3.elementor-heading-title,
+body.single h3, 
+body.page h3 
+{
+  font-family: "Montserrat Font", Sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 43px;
+}
+
+.elementor-default .elementor .elementor-element.section-title h4.elementor-heading-title 
+{
+  width: 1026px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.elementor-default .elementor .elementor-element h4.elementor-heading-title,
+body.single h4,
+body.page h4,
+.elementor-default .elementor .elementor-element h4 {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 54px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 993px) {
+
+  .elementor-default .elementor .elementor-element h1.elementor-heading-title,
+    body.single h1 {
+      font-family: "Montserrat Font", Sans-serif;
+      font-size: 44px;
+      font-weight: 800;
+      line-height: 54px;
+    }
+  
+    .elementor-default .elementor .elementor-element h2.elementor-heading-title,
+    body.single h2 {
+      font-family: "Montserrat Font", Sans-serif;
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 39px;
+      margin-bottom: 8px;
+    }
+  
+    .elementor-default .elementor .elementor-element h3.elementor-heading-title,
+    body.single h3 {
+      font-family: "Montserrat Font", Sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 43px;
+    }
+  
+    .elementor-default .elementor .elementor-element h4.elementor-heading-title,
+    body.single h4,
+    .elementor-default .elementor .elementor-element h4 {
+      font-family: "Open Sans", Sans-serif;
+      font-size: 18px;
+      font-weight: normal;
+      line-height: 29px;
+      margin-bottom: 10px;
+    }
+  
+    body.elementor-default .elementor .elementor-element p,
+    body.elementor-default .elementor .elementor-element ul li,
+    body.elementor-default .elementor .elementor-element ol li,
+    body.single p,
+    body.single ul li,
+    body.single ol li,
+    body p,
+    body ul li,
+    body ol li,
+    body.elementor-default .elementor .elementor-element {
+      font-family: "Open Sans", Sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 27px;
+    }
+}
+
+@media (max-width: 992px) { 
+  .elementor-default .elementor .elementor-element h1.elementor-heading-title,
+  body.single h1
+   {
+    font-family: "Montserrat Font", Sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 54px;
+  }
+  
+  .elementor-default .elementor .elementor-element h2.elementor-heading-title,
+  body.single h2 {
+    font-family: "Montserrat Font", Sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 39px;
+    margin-bottom: 8px;
+  }
+  
+  .elementor-default .elementor .elementor-element h3.elementor-heading-title,
+  body.single h3 {
+    font-family: "Montserrat Font", Sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 43px;
+  }
+
+  .elementor-default .elementor .elementor-element h4.elementor-heading-title,
+  body.single h4,
+  .elementor-default .elementor .elementor-element h4 {
+    font-family: "Open Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 29px;
+    margin-bottom: 10px;
+  }
+
+body.elementor-default .elementor .elementor-element p,
+body.elementor-default .elementor .elementor-element ul li,
+body.elementor-default .elementor .elementor-element ol li,
+body.single p,
+body.single ul li,
+body.single ol li,
+body p,
+body ul li,
+body ol li,
+  body.elementor-default .elementor .elementor-element {
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 27px;
+  }
+
+}
+
+/* =============== CTA BUTTON =============== */
+
+
+.elementor .elementor-element.cta-btn .elementor-button-wrapper .elementor-button {
+  font-size: 17px;
+  padding: 18px 39px;
+  font-family: "Montserrat Font", Sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 20px;
+  border-radius: 31px;
+  min-width: 265px;
+  max-width: max-content;
+  border: 3px solid #06565C;
+}
+
+.elementor .elementor-element.cta-btn .elementor-button-wrapper .elementor-button:hover {
+  border: 3px solid #fff;
+  color: #06565C;
+  background-color: #FFFFFF;
+}
+
+.elementor .elementor-element.cta-btn.white-btn .elementor-button-wrapper .elementor-button {
+  border: 3px solid #fff;
+  background-color: #fff;
+}
+
+.elementor .elementor-element.cta-btn.white-btn .elementor-button-wrapper .elementor-button:focus {
+  color: #06565C;
+}
+
+.elementor .elementor-element.cta-btn.white-btn .elementor-button-wrapper .elementor-button:hover {
+  border: 3px solid #06565C;
+  background-color: #06565C;
+  color: #fff;
+}
+
+.elementor .elementor-element.cta-btn.btn-on-light-bg .elementor-button-wrapper .elementor-button:hover {
+  border: 3px solid #06565C;
+}
+
+.elementor .elementor-element.cta-btn.green-btn .elementor-button-wrapper .elementor-button {
+  border: 3px solid #08a6a5;
+  background-color: #08a6a5;
+  color: #fff;
+}
+
+.elementor .elementor-element.cta-btn.green-btn .elementor-button-wrapper .elementor-button:hover {
+  border: 3px solid #fff;
+  background-color: #fff;
+  color: #08a6a5;
+}
+
+.elementor .elementor-element.cta-btn.green-btn.btn-on-light-bg .elementor-button-wrapper .elementor-button:hover {
+  border: 3px solid #08a6a5;
+  background-color: #fff;
+  color: #08a6a5;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1025px) {
+
+  .elementor .elementor-element.cta-btn .elementor-button-wrapper .elementor-button {
+    padding: 15px 25px;
+    font-size: 14px;
+    line-height: 16px;
+    min-width: 215px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+
+  .elementor .elementor-element.cta-btn .elementor-button-wrapper .elementor-button {
+    padding: 15px 25px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+
+/* =============== CTA BUTTON =============== */
+
+
+a:hover {
+  color: #08A6A5
+}
+.home
+  section.elementor-section.elementor-top-section.elementor-element.elementor-element-5c7c6978.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default {
+  display: none !important;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .elementor-default .elementor .elementor-element h2.elementor-heading-title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  .elementor-default .elementor .elementor-element h1.elementor-heading-title {
+    font-size: 44px;
+    line-height: 54px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .elementor-default .elementor .elementor-element h2.elementor-heading-title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+}
+
+.search-bar {
+  .form-search {
+    border: 2px solid #504f4f;
+    border-radius: 36px;
+    height: 72px;
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+
+    input {
+      border: 0;
+      background-color: transparent;
+      font-size: 18px;
+      font-family: "Montserrat";
+    }
+
+    button {
+      border: 0;
+      outline: 0;
+      padding: 12px 22px;
+      background-color: transparent;
+    }
+  }
+}
+
+.filter-dropdown {
+  margin-top: 30px;
+
+  .dropdown-menu {
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+  }
+
+  .filter-button {
+    border: 2px solid #504f4f;
+    border-radius: 36px;
+    height: 72px;
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    padding: 21px 22px;
+    font-family: "Montserrat", Sans-serif;
+  }
+
+  .dropdown-toggle:after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 15px solid #08a6a5;
+    border-right: 8px solid transparent;
+    border-bottom: 0;
+    border-left: 8px solid transparent;
+    margin-left: auto;
+    margin-right: 7px;
+    margin-top: 8px;
+  }
+
+  .dropdown-item {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+.filter-dropdown .filter-button:hover,
+.filter-dropdown .filter-button:focus,
+.filter-dropdown.show .filter-button {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #504f4f;
+}
+
+.filter-dropdown.show .dropdown-toggle:after {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  padding: 0;
+
+  &.show {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+  }
+}
+
+.btn {
+  font-size: 21px;
+  line-height: 25px;
+  padding: 30px 60px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 41px;
+  max-width: fit-content;
+  margin: 0 auto;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 700;
+}
+
+.primary-btn {
+  color: #fff;
+  background-color: #06565c;
+}
+
+.primary-btn:hover {
+  color: #fff;
+  background-color: #06565c;
+}
+
+.mktoField {
+  padding: 20px 50px !important;
+  border-color: #414245 !important;
+  width: 660px !important;
+  color: #414245 !important;
+  font-family: "Open Sans";
+}
+
+.mktoForm select.mktoField {
+  font-size: 27px;
+}
+
+.mktoForm .mktoOffset {
+  display: none;
+}
+
+.mktoForm input {
+  font-size: 27px !important;
+  line-height: 39px;
+  color: #9a9a9a !important;
+  margin-bottom: 0 !important;
+  font-family: "Open Sans", Sans-serif !important;
+  font-weight: normal !important;
+  width: 100% !important;
+}
+
+.mktoForm select {
+  width: 100% !important;
+}
+
+.mktoForm input::placeholder {
+  font-size: 27px !important;
+  font-family: "Open Sans", Sans-serif !important;
+  font-weight: normal !important;
+}
+
+.mktoForm input::-webkit-input-placeholder {
+  font-size: 10px !important;
+}
+
+input,
+input::placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333 !important;
+  margin-bottom: 0 !important;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 600;
+}
+
+.mktoForm .mktoFormRow {
+  margin-bottom: 15px;
+}
+
+.mktoForm .mktoRequiredField .mktoAsterix {
+  display: none !important;
+}
+
+span.mktoButtonWrap.mktoSimple {
+  margin-left: 0 !important;
+  display: block;
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+  background-image: linear-gradient(to bottom, #06565c, #06565c) !important;
+  border: 1px solid #06565c !important;
+  font-family: "Montserrat", Sans-serif !important;
+  text-transform: uppercase !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  line-height: 20px;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #06565c !important;
+  border-radius: 41px 41px 41px 41px;
+  padding: 20px 80px !important;
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
+  background: white !important;
+  color: #06565c !important;
+}
+
+.mktoForm .mktoGutter {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mktoField {
+    padding: 20px 20px !important;
+  }
+
+  .mktoForm input {
+    font-size: 18px !important;
+    line-height: 29px;
+  }
+
+  input,
+  input::placeholder {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+  }
+
+  .mktoForm select.mktoField {
+    font-size: 18px;
+  }
+
+  .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+    padding: 15px 60px 15px 60px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mktoField {
+    width: 500px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .mktoField {
+    width: 100% !important;
+  }
+
+  .mktoForm select.mktoField {
+    height: auto;
+    padding: 10px 15px !important;
+  }
+}
+
+// START Footer changes
+
+.elementor-element-8aeb7ca {
+  a {
+    text-decoration: underline !important;
+    text-decoration-color: #fff !important;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.elementor-element-5dab7a1 {
+  .elementor-column-gap-default {
+    display: flex;
+    align-items: center;
+  }
+  .elementor-element-740c23b {
+    p {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.elementor-element-7b46872 {
+  a {
+    color: #06565c !important;
+    text-decoration: underline !important;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.elementor-element-71cab54 {
+  a {
+    color: #06565c !important;
+    text-decoration: underline !important;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.elementor-element-686bc10 {
+  .elementor-icon-list-items {
+    a {
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.elementor-element-d184533 {
+  padding-bottom: 80px !important;
+}
+
+.elementor-element-c834647 {
+  a {
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+@media only screen and (max-width: 1346px) {
+  .elementor-element-686bc10 {
+    .elementor-icon-list-items {
+      margin: 0 !important;
+    }
+  }
+}
+
+// END Footer changes
+
+//START IMAGE CONTAINER CHANGES
+
+// .elementor-element-7841db1,
+.elementor-element-6afe7a9 {
+  .ekit-wid-con .elementor-icon-list-items {
+    margin-left: -8px !important;
+  }
+  .elementor-widget-container {
+    p {
+      font-family: "Open Sans" !important;
+      font-size: 27px !important;
+      font-weight: normal !important;
+    }
+  }
+  .elementor-icon-list-item {
+    a {
+      font-family: "Open Sans" !important;
+      font-size: 20px !important;
+      font-weight: normal !important;
+    }
+  }
+}
+
+
+
+//END IMAGE CONTAINER CHANGES
+
+
+.elementor .ekit_modal-searchPanel .ekit-search-group input.ekit_search-field {
+  width: calc(100% - 25px);
+}
+
+.ekit_modal-searchPanel .ekit-search-group button.ekit_search-button {
+  font-size: 36px;
+}
+
+.elementor section.elementor-section .section-subheading {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.elementor section.elementor-section .section-subheading > .elementor-widget-container{
+  max-width: 1026px;
+  padding:0;
+}
+.elementor section.elementor-element.elementor-section.section-margin-top {
+  margin-top: 120px;
+}
+
+.elementor section.elementor-element.elementor-section.section-margin-bottom {
+  margin-bottom: 120px;
+}
+
+.elementor section.elementor-element.elementor-section.section-padding-top {
+  padding-top: 120px;
+}
+
+.elementor section.elementor-element.elementor-section.section-padding-bottom {
+  padding-bottom: 120px;
+}
+@media screen and (max-width: 992px) {
+  .elementor .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 10px 20px;
+  }
+
+  .elementor section.elementor-element.elementor-section.section-margin-top {
+    margin-top: 80px;
+  }
+  
+  .elementor section.elementor-element.elementor-section.section-margin-bottom {
+    margin-bottom: 80px;
+  }
+  
+  .elementor section.elementor-element.elementor-section.section-padding-top {
+    padding-top: 80px;
+  }
+  
+  .elementor section.elementor-element.elementor-section.section-padding-bottom {
+    padding-bottom: 80px;
+  }
+}
+
+
+@media (min-width: 1025px) {
+
+  .search main{
+    padding-left: 10px !important;
+    padding-right: 10px!important;
+  }
+
+  .error404 main{
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .search main {
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+  }
+
+  .error404 main {
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+  }
+}

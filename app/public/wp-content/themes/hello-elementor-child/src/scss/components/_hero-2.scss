@@ -1,0 +1,138 @@
+.elementor .elementor-element.elementor-section.hero-2-bg {
+	position: relative;    
+	overflow-x: hidden;
+}
+
+.elementor .elementor-element.elementor-section.hero-2-bg .elementor-element-populated{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.elementor .elementor-element.elementor-section.hero-2-bg .gradient-right-image > .elementor-element-populated{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.elementor .elementor-element.elementor-section.hero-2-bg .gradient-right-image:before{
+	position: absolute;
+	background: linear-gradient(to left, rgba(147,161,204,1) 0%,rgba(64,200,228,1) 100%);
+	content: '';
+	width: 100vw;
+	z-index: -1;
+	height: 100%;
+	display: block;
+	top: 0;
+	left: 100%;
+}
+
+.elementor .elementor-element.elementor-section.hero-2-bg:after{
+	position: absolute;
+	background: linear-gradient(to right, rgba(147,161,204,1) 0%,rgba(64,200,228,1) 100%,rgba(51,178,132,0.2) 100%);
+	content: '';
+	width: calc(50vw + 220px);
+	z-index: -1;
+	height: 100%;
+	display: block;
+	top: 0;
+}
+
+.elementor .elementor-element.elementor-section.hero-2-bg .elementor-widget-image {
+	mix-blend-mode: darken;
+	width: 50vw;
+	max-width: 50vw;
+}
+
+.elementor .elementor-element.elementor-section.hero-2-bg .gradient-right-image {
+	position: relative;
+	left: 80px;
+}
+
+.elementor .elementor-element.elementor-section.hero-2-bg .gradient-right-image .elementor-widget-wrap.elementor-element-populated {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.elementor .elementor-element.elementor-section.hero-2-bg .gradient-right-image .elementor-element-populated {
+	width: 50vw;
+}
+
+.elementor .elementor-element.elementor-section.hero-2-bg .gradient-right-image .elementor-widget-image {
+	width: 50vw !important;
+}
+ 
+.elementor .elementor-element.elementor-section.hero-2-bg .product-page-banner .gradient-right-image:before {
+	background: none;
+}
+
+.elementor .elementor-element.elementor-section.hero-2-bg .careers-page-banner .gradient-right-image .elementor-element-populated {
+	width: 50vw;
+}
+
+.elementor .elementor-element.elementor-section.hero-2-bg .careers-page-banner .gradient-right-image .elementor-widget-image {
+	width: 50vw !important;
+}
+ 
+.elementor .elementor-element.elementor-section.hero-2-bg .careers-page-banner .gradient-right-image:before {
+	background: none;
+}
+
+ 
+.elementor .elementor-element.elementor-section.hero-2-bg .partners-page-banner .gradient-right-image:before {
+	background: none;
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1200px) {
+
+	.elementor .elementor-element.elementor-section.hero-2-bg .elementor-element-populated {
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+	}
+}
+
+
+@media (max-width: 1024px) {
+
+	.elementor .elementor-element.elementor-section.hero-2-bg .gradient-right-image .elementor-widget-image {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+
+	.elementor .elementor-element.elementor-section.hero-2-bg .gradient-right-image .elementor-widget-image > .elementor-widget-container{
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	
+	.elementor .elementor-element.elementor-section.hero-2-bg .gradient-right-image.elementor-element {
+		position: relative;
+		left: 0;
+	}
+    
+	.elementor .elementor-element.elementor-section.hero-2-bg .gradient-right-image .elementor-widget-wrap.elementor-element-populated {
+		z-index: 9;
+		position: relative;
+		padding: 0 !important;
+	}
+    
+	.elementor .elementor-element.elementor-section.hero-2-bg .gradient-right-image .elementor-widget-wrap.elementor-element-populated {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+		padding: 0;
+		width: 100% !important;
+	}
+    
+	.elementor .elementor-element.elementor-section.hero-2-bg .elementor-widget-image img {
+		mix-blend-mode: darken;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+    
+	.elementor .elementor-element.elementor-section.hero-2-bg:after{
+		width: 100%;
+	}
+	
+	.elementor .elementor-element.elementor-section.hero-2-bg .careers-page-banner .gradient-right-image .elementor-widget-image {
+		width: 100% !important;
+	}
+
+}

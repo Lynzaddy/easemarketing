@@ -1,0 +1,67 @@
+.icon-link-3-col
+  .elementor-element.link-hover.elementor-widget.elementor-widget-heading
+  a:hover {
+  color: #087985;
+}
+
+.icon-link-3-col .link-hover a {
+  position: relative;
+}
+
+.icon-link-3-col .link-hover a:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-width: 0 0 2px;
+  border-style: solid;
+}
+
+.icon-link-text.elementor-element{
+  padding-top: 100px !important;
+}
+
+
+.elementor .elementor-section.elementor-element.total-pkg-section .link-hover p.elementor-heading-title:hover {
+	color: #08a6a5 !important;
+	transition: all 0.5s;
+}
+
+@media (min-width: 768px) {
+  .icon-link-3-col .elementor-column {
+    flex: 1 1 33.33%;
+  }
+
+  .icon-link-3-col .elementor-container {
+    flex-wrap: wrap;
+    justify-content: space-betwwen;
+  }
+
+  .icon-link-3-col img {
+    width: 124px;
+    height: 124px;
+  }
+}
+
+@media (max-width: 767px) {
+  .icon-link-3-col img {
+    width: 110px;
+    height: 110px;
+  }
+
+  section.elementor-section.elementor-top-section.elementor-element.icon-link-3-col
+    .icon_center {
+    margin-bottom: 0;
+  }
+
+  section.elementor-section.elementor-top-section.elementor-element.icon-link-3-col
+    a {
+    text-decoration: underline;
+  }
+}
+section.elementor-section.elementor-top-section.elementor-element.icon-link-3-col
+  .link-hover
+  a {
+  text-decoration: none;
+}

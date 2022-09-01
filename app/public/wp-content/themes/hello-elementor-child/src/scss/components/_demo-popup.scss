@@ -1,0 +1,93 @@
+.elementor .book-demo-popup .elementor-element {
+    margin-bottom: 10px;
+}
+
+.book-demo-popup .mktoFieldDescriptor, .mktoClear,  .mktoFieldWrap {
+    width: 100% !important;
+}
+
+.book-demo-popup .mktoForm .mktoField.dropdown {
+    appearance: none !important;
+    background: url(/wp-content/uploads/2022/06/arrow.png) n2o-repeat right #fff;
+    display: none;
+}
+
+.book-demo-popup form{
+    padding: 0;
+    width: 100% !important;
+}
+
+.book-demo-popup form.mktoForm .mktoButtonRow{
+    justify-content: flex-start;
+}
+
+.book-demo-popup form input.mktoField {
+    height: 52px;
+    padding: 16px 20px !important;
+    font-size: 13px!important;
+}
+.book-demo-popup form input.mktoField::placeholder {
+    font-size: 13px!important;
+}
+
+
+.book-demo-popup form  input::placeholder{font-size:16px!important;color:#868686!important;font-family:"Montserrat",Sans-serif!important;font-weight:400!important;
+
+}
+
+
+.book-demo-popup form input[type=date], .book-demo-popup form input[type=email], .book-demo-popup form input[type=number], .book-demo-popup form input[type=password], .book-demo-popup form input[type=search], .book-demo-popup form input[type=tel], .book-demo-popup form input[type=text], .book-demo-popup form input[type=url], .book-demo-popup form select, textarea{
+        border: 2px solid #EDEDED !important;
+    
+}
+
+
+
+.book-demo-popup  form.mktoForm select.mktoField {
+    font-size: 13px;
+    color: #868686 !important;
+    padding: 16px 16px !important;
+    height: 52px;
+}
+
+.book-demo-popup form.mktoForm .mktoFormRow{
+    margin-bottom: 0;
+}
+
+
+.book-demo-popup form.mktoForm .mktoFormRow:nth-child(3), .book-demo-popup form.mktoForm .mktoFormRow:nth-child(4){
+    width: calc(50% - 5px);
+    float: left;
+    clear: inherit;
+}
+
+
+.book-demo-popup form.mktoForm .mktoFormRow:nth-child(4){
+    margin-left: 10px;
+}
+
+@media (max-width: 767px){
+   
+    .book-demo-popup .elementor-column:first-child {
+        display: none;
+    }
+
+    .book-demo-popup .elementor-column {
+        width: 100% !important;
+        margin-top: 50px !important;
+    }
+    
+.book-demo-popup form.mktoForm .mktoFormRow:nth-child(3), .book-demo-popup form.mktoForm .mktoFormRow:nth-child(4){
+    width: 100%;
+    float: none;
+    clear: both;
+}
+
+
+.book-demo-popup form.mktoForm .mktoFormRow:nth-child(4){
+    margin-left: 0;
+}
+    
+    
+}
+

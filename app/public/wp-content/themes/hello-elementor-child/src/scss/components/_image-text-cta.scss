@@ -1,0 +1,149 @@
+/* =============== IMAGE TEXT CTA START =============== */
+
+.elementor .elementor-element.find-your-place-section-top.elementor-section {
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.elementor .elementor-element.find-your-place-section.elementor-section {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 120px;
+  padding: 0px 0px 0px 0px;
+}
+
+.elementor .elementor-element.find-your-place-section.elementor-section .image-col > .elementor-element-populated {
+  margin: 0px 10px 0px 0px;
+  --e-column-margin-right: 10px;
+  --e-column-margin-left: 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.elementor-default .elementor .elementor-element.find-your-place-section  .elementor-element h3.elementor-heading-title{
+  font-size: 36px;
+  line-height: 43px; 
+}
+
+.elementor .elementor-element.find-your-place-section.elementor-section .elementor-element.cta-btn.elementor-widget-button > .elementor-widget-container{
+  margin: 48px 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.elementor .elementor-element.find-your-place-section.elementor-section .gradiant-col {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 1;
+  mix-blend-mode: darken;
+  width: 850px;
+}
+
+.elementor .elementor-element.find-your-place-section.elementor-section .image-col {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  top: 0;
+  right: 0;
+
+}
+
+.elementor .elementor-element.find-your-place-section.elementor-section .image-col .elementor-widget-image {
+  text-align: right;
+}
+
+.elementor .elementor-element.find-your-place-section.elementor-section .image-col .elementor-widget-image img {
+  width: 787px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.elementor .elementor-element.find-your-place-section.elementor-section .image-gradient.elementor-widget-image img{
+  mix-blend-mode: darken;
+}
+
+
+.elementor .elementor-element.find-your-place-section.elementor-section .gradiant-col .elementor-element-populated {
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1370px) {
+  .elementor .elementor-element.find-your-place-section.elementor-section .gradiant-col {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1200px) {
+
+  .elementor .elementor-element.find-your-place-section.elementor-section .image-col .elementor-widget-image img {
+    width: 580px;
+  }
+
+  .elementor .elementor-element.find-your-place-section.elementor-section .gradiant-col .elementor-element-populated {
+    padding-right: 170px;
+  }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1025px) {
+
+  .elementor .elementor-element.find-your-place-section.elementor-section .image-col .elementor-widget-image img {
+    width: 500px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .elementor .elementor-element.find-your-place-section.elementor-section .gradiant-col {
+    width: 100%;
+    transform: unset;
+    position: relative;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+  .elementor .elementor-element.find-your-place-section.elementor-section .image-gradient.elementor-widget-image img {
+    width: 100%;
+  }
+
+  .elementor .elementor-element.find-your-place-section.elementor-section .image-col>.elementor-element-populated{
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .elementor .elementor-element.find-your-place-section-top.elementor-section {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  .elementor .elementor-element.find-your-place-section.elementor-section .image-col > .elementor-element-populated {
+    margin: 0;
+  }
+  .elementor .elementor-element.find-your-place-section.elementor-section  .elementor-widget-container {
+    padding: 20px;
+  }
+
+  .elementor .elementor-element.find-your-place-section.elementor-section .image-col .elementor-widget-container {
+    padding: 0;
+  }
+  .ele
+  .elementor .elementor-element.find-your-place-section.elementor-section  > .elementor-element-populated {
+    margin-top: 60px;
+  }
+
+  .elementor .elementor-element.find-your-place-section.elementor-section .elementor-element.cta-btn.elementor-widget-button > .elementor-widget-container{
+    margin: 48px 20px 0 20px;
+  }
+
+  .elementor .elementor-element.find-your-place-section.elementor-section {
+    margin-bottom: 80px;
+  }
+  
+}
+
+
+/* =============== IMAGE TEXT CTA END =============== */
+
+

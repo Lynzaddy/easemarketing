@@ -1,0 +1,36 @@
+.elementor .hero-3 .clip-path-col {
+    clip-path: ellipse(90% 55% at 48% 44%);
+}
+
+.elementor .hero-3 .curve-0.elementor-element .elementor-element-populated {
+    clip-path: inherit;
+}
+
+.elementor .hero-3 > .elementor-container > .elementor-column > .elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 150px 0px 185px 0px;
+}
+/*
+.elementor .hero-3 .elementor-element.cta-btn .elementor-button-wrapper .elementor-button {
+    padding: 24px 88px;
+} */
+@media (max-width: 1140px) {
+    .elementor .hero-3 > .elementor-container > .elementor-column > .elementor-element-populated {
+        padding: 170px 0px 200px 0px;
+}
+}
+@media (max-width: 992px) {
+    .elementor .hero-3 > .elementor-container > .elementor-column > .elementor-element-populated {
+        padding: 170px 20px 200px 20px;
+    }
+}
+@media (max-width: 768px){
+    .hero-3 .clip-path-col{
+        clip-path: ellipse(140% 55% at 48% 44%);
+    }
+   }
+@media (max-width: 576px) {
+    .elementor .hero-3 > .elementor-container > .elementor-column > .elementor-element-populated {
+        padding: 80px 20px 100px 20px;
+    }
+}
